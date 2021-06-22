@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Google fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+      
+      <!--begin::Page Vendors Styles(used by this page)-->
+      <link href="assets/fullcalendar.bundle.css" rel="stylesheet" type="text/css"/>
+      <!--end::Page Vendors Styles-->
+      <!--begin::Global Theme Styles(used by all pages)-->
+      <link href="assets/plugins.bundle.css" rel="stylesheet" type="text/css"/>
+      <link href="assets/prismjs.bundle.css" rel="stylesheet" type="text/css"/>
+
+      <!-- Stylesheets -->
+      <link rel="stylesheet" href="css/vendors.css">
+      <link rel="stylesheet" href="css/main.css">
+      
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="img/general/favicon.ico"/>
+      <title>Ethereum Cat Herders</title>
+   </head>
+   <body class="preloader-visible" data-barba="wrapper">
+      <!-- preloader start -->
+      <div class="preloader js-preloader">
+         <div class="preloader__bg"></div>
+         <div class="preloader__progress">
+            <div class="preloader__progress__inner"></div>
+         </div>
+      </div>
+      <!-- preloader end -->
+      <!-- cursor start -->
+      <div class="cursor js-cursor">
+         <div class="cursor__wrapper">
+            <div class="cursor__follower js-follower"></div>
+            <div class="cursor__label js-label"></div>
+            <div class="cursor__icon js-icon"></div>
+         </div>
+      </div>
+      <!-- cursor end -->
+      <!-- barba container start -->
+      <div class="barba-container" data-barba="container">
+         <!-- to-top-button start -->
+         <!-- to-top-button end -->
+         <main class="">
+            <!-- header start -->
+            <header class="header -light -sticky-light js-header ">
+               <!-- header__bar start -->
+               <div class="header__bar">
+                  <div class="overflow-hidden">
+                     <div class="header__logo js-header-logo">
+                        <a href="index.html">
+                        <img class="header__logo__light" src="img/logo/logo-dark.svg" alt="logo">
+                        </a>
+                        <a href="index.html">
+                        <img class="header__logo__dark" src="img/logo/logo-dark.svg" alt="logo">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="navClassic-wrap js-header-menu-classic">
+                     <ul class="navClassic-list js-navClassic-list">
+                        <li>
+                           <a href="index.html">
+                           Home
+                           </a>
+                        </li>
+                        <li class="menu-item-has-children">
+                           <a href="network_upgrades.html">
+                              Activities 
+                              <span>
+                                 <svg style="width: 18px;"aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path>
+                                 </svg>
+                              </span>
+                           </a>
+                           <ul class="subnav-list">
+                              <li>
+                                 <a href="network_upgrades.html">Network Upgrades</a>
+                              </li>
+                              <li>
+                                 <a href="eip_resources.html">EIP Resources</a>
+                              </li>
+                              <li>
+                                 <a href="dev_meetings.html">Meetings</a>
+                              </li>
+                              <li>
+                                 <a href="surveys.html">Surveys</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a class="active" style="color:black;" href="calendar.html">
+                           Calendar
+                           </a>
+                        </li>
+                        <li>
+                           <a href="blog.html">
+                           Blog
+                           </a>
+                        </li>
+                        <li>
+                           <a href="ech_youtube.html">
+                           ECH Youtube
+                           </a>
+                        </li>
+                        <li>
+                           <a href="about_us.html">
+                           About Us
+                           </a>
+                        </li>
+                        
+                     </ul>
+                  </div>
+                  <div class="header__menu__wrap overflow-hidden">
+                     <div class="header__menu js-header-menu">
+                        <button type="button" class="nav-button-open js-nav-open">
+                        <i class="icon" data-feather="menu"></i>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <!-- header__bar end -->
+               <!-- nav start -->
+               <nav class="nav js-nav">
+                  <div class="nav__inner js-nav-inner">
+                     <div class="nav__bg js-nav-bg">
+                        <div class="🐱">
+                           <div class="🐱b"></div>
+                           <div class="🐱h">
+                              <div class="🐱n"></div>
+                              <div class="🐱e 🐱e--r"></div>
+                              <div class="🐱e 🐱e--l"></div>
+                              <div class="🐱s">
+                                 <div class="🐱s__i"></div>
+                                 <div class="🐱s__i"></div>
+                                 <div class="🐱s__i"></div>
+                              </div>
+                              <div class="🐱s 🐱s--r">
+                                 <div class="🐱s__i"></div>
+                                 <div class="🐱s__i"></div>
+                                 <div class="🐱s__i"></div>
+                              </div>
+                              <div class="🐱ea 🐱ea--r"></div>
+                              <div class="🐱ea 🐱ea--l"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="nav__container">
+                        <div class="nav__header">
+                           <button type="button" class="nav-button-back js-nav-back">
+                           <i class="icon" data-feather="arrow-left-circle"></i>
+                           </button>
+                           <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                           <i class="icon" data-feather="x"></i>
+                           </button>
+                        </div>
+                        <div class="nav__content">
+                           <div class="nav__content__left">
+                              <div class="navList__wrap">
+                                 <ul class="navList js-navList">
+                                    <li>
+                                       <a class="active" href="index.html">
+                                       Home
+                                       </a>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                       <a>Activities</a>
+                                       <ul class="subnav-list">
+                                          <li>
+                                             <a href="network_upgrades.html">Network Upgrades</a>
+                                          </li>
+                                          <li>
+                                             <a href="eip_resources.html">EIP Resources</a>
+                                          </li>
+                                          <li>
+                                             <a href="dev_meetings.html">Meetings</a>
+                                          </li>
+                                          <li>
+                                             <a href="surveys.html">Surveys</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a class="active" href="calendar.html">
+                                       Calendar
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a class="active" href="blog.html">
+                                       Blog
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a class="active" href="ech_youtube.html">
+                                       ECH Youtube
+                                       </a>
+                                    </li>
+                                    <li>
+                                       <a class="active" href="about_us.html">
+                                       About Us
+                                       </a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="nav__content__right">
+                              <div class="nav__info">
+                                 <div class="nav__info__item js-navInfo-item">
+                                    <h5 class="text-sm tracking-none fw-500">
+                                       Follow us
+                                    </h5>
+                                    <div class="nav__info__content text-lg text-white mt-16">
+                                       <a href="https://twitter.com/EthCatHerders">Twitter</a>
+                                       <a href="https://github.com/ethereum-cat-herders">Github</a>
+                                       <a href="https://www.youtube.com/channel/UCD9iiIwTRtLDYcEWONs2Q3A">Youtube</a>
+                                       <a href="https://www.linkedin.com/company/ethereum-cat-herders/">Linkedin</a>
+                                    </div>
+                                 </div>
+                                 <div class="nav__info__item js-navInfo-item">
+                                    <h5 class="text-sm tracking-none fw-500">
+                                       Email us
+                                    </h5>
+                                    <div class="nav__info__content text-lg text-white mt-16">
+                                       <a href='mailto:support@ethereumcatherders.com'>support@ethereumcatherders.com</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </nav>
+               <!-- nav end -->
+            </header>
+
+
+
+            <section id="section-text" class="layout-pt-xl mobile-header-top-padding-0 ">
+               <div class="container">
+                  <div class="row align-items-center">
+                     <div class="col-12">
+                        <h1 class="fw-900 mt-24 ">Ethereum Calendar</h1>
+                       
+                     </div>
+                     
+                  </div>
+               </div>
+            </section>
+
+
+
+            <div class="site-blocks-cover" style="overflow: hidden; background:url(images/calendar2.png);">
+               <div class="container">
+                  <div class="row align-items-center justify-content-center">
+                     <div class="col-md-12" style="position: relative;" data-aos="fade-up" data-aos-delay="200">
+                        <script data-pagespeed-no-defer>
+                           //<![CDATA[
+                           (function() {
+                               for (var g = "function" == typeof Object.defineProperties ? Object.defineProperty : function(b, c, a) {
+                                       if (a.get || a.set) throw new TypeError("ES3 does not support getters and setters.");
+                                       b != Array.prototype && b != Object.prototype && (b[c] = a.value)
+                                   }, h = "undefined" != typeof window && window === this ? this : "undefined" != typeof global && null != global ? global : this, k = ["String", "prototype", "repeat"], l = 0; l < k.length - 1; l++) {
+                                   var m = k[l];
+                                   m in h || (h[m] = {});
+                                   h = h[m]
+                               }
+                               var n = k[k.length - 1],
+                                   p = h[n],
+                                   q = p ? p : function(b) {
+                                       var c;
+                                       if (null == this) throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");
+                                       c = this + "";
+                                       if (0 > b || 1342177279 < b) throw new RangeError("Invalid count value");
+                                       b |= 0;
+                                       for (var a = ""; b;)
+                                           if (b & 1 && (a += c), b >>>= 1) c += c;
+                                       return a
+                                   };
+                               q != p && null != q && g(h, n, {
+                                   configurable: !0,
+                                   writable: !0,
+                                   value: q
+                               });
+                               var t = this;
+                           
+                               function u(b, c) {
+                                   var a = b.split("."),
+                                       d = t;
+                                   a[0] in d || !d.execScript || d.execScript("var " + a[0]);
+                                   for (var e; a.length && (e = a.shift());) a.length || void 0 === c ? d[e] ? d = d[e] : d = d[e] = {} : d[e] = c
+                               };
+                           
+                               function v(b) {
+                                   var c = b.length;
+                                   if (0 < c) {
+                                       for (var a = Array(c), d = 0; d < c; d++) a[d] = b[d];
+                                       return a
+                                   }
+                                   return []
+                               };
+                           
+                               function w(b) {
+                                   var c = window;
+                                   if (c.addEventListener) c.addEventListener("load", b, !1);
+                                   else if (c.attachEvent) c.attachEvent("onload", b);
+                                   else {
+                                       var a = c.onload;
+                                       c.onload = function() {
+                                           b.call(this);
+                                           a && a.call(this)
+                                       }
+                                   }
+                               };
+                               var x;
+                           
+                               function y(b, c, a, d, e) {
+                                   this.h = b;
+                                   this.j = c;
+                                   this.l = a;
+                                   this.f = e;
+                                   this.g = {
+                                       height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight,
+                                       width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+                                   };
+                                   this.i = d;
+                                   this.b = {};
+                                   this.a = [];
+                                   this.c = {}
+                               }
+                           
+                               function z(b, c) {
+                                   var a, d, e = c.getAttribute("data-pagespeed-url-hash");
+                                   if (a = e && !(e in b.c))
+                                       if (0 >= c.offsetWidth && 0 >= c.offsetHeight) a = !1;
+                                       else {
+                                           d = c.getBoundingClientRect();
+                                           var f = document.body;
+                                           a = d.top + ("pageYOffset" in window ? window.pageYOffset : (document.documentElement || f.parentNode || f).scrollTop);
+                                           d = d.left + ("pageXOffset" in window ? window.pageXOffset : (document.documentElement || f.parentNode || f).scrollLeft);
+                                           f = a.toString() + "," + d;
+                                           b.b.hasOwnProperty(f) ? a = !1 : (b.b[f] = !0, a = a <= b.g.height && d <= b.g.width)
+                                       }
+                                   a && (b.a.push(e), b.c[e] = !0)
+                               }
+                               y.prototype.checkImageForCriticality = function(b) {
+                                   b.getBoundingClientRect && z(this, b)
+                               };
+                               u("pagespeed.CriticalImages.checkImageForCriticality", function(b) {
+                                   x.checkImageForCriticality(b)
+                               });
+                               u("pagespeed.CriticalImages.checkCriticalImages", function() {
+                                   A(x)
+                               });
+                           
+                               function A(b) {
+                                   b.b = {};
+                                   for (var c = ["IMG", "INPUT"], a = [], d = 0; d < c.length; ++d) a = a.concat(v(document.getElementsByTagName(c[d])));
+                                   if (a.length && a[0].getBoundingClientRect) {
+                                       for (d = 0; c = a[d]; ++d) z(b, c);
+                                       a = "oh=" + b.l;
+                                       b.f && (a += "&n=" + b.f);
+                                       if (c = !!b.a.length)
+                                           for (a += "&ci=" + encodeURIComponent(b.a[0]), d = 1; d < b.a.length; ++d) {
+                                               var e = "," + encodeURIComponent(b.a[d]);
+                                               131072 >= a.length + e.length && (a += e)
+                                           }
+                                       b.i && (e = "&rd=" + encodeURIComponent(JSON.stringify(B())), 131072 >= a.length + e.length && (a += e), c = !0);
+                                       C = a;
+                                       if (c) {
+                                           d = b.h;
+                                           b = b.j;
+                                           var f;
+                                           if (window.XMLHttpRequest) f = new XMLHttpRequest;
+                                           else if (window.ActiveXObject) try {
+                                               f = new ActiveXObject("Msxml2.XMLHTTP")
+                                           } catch (r) {
+                                               try {
+                                                   f = new ActiveXObject("Microsoft.XMLHTTP")
+                                               } catch (D) {}
+                                           }
+                                           f && (f.open("POST", d + (-1 == d.indexOf("?") ? "?" : "&") + "url=" + encodeURIComponent(b)), f.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), f.send(a))
+                                       }
+                                   }
+                               }
+                           
+                               function B() {
+                                   var b = {},
+                                       c;
+                                   c = document.getElementsByTagName("IMG");
+                                   if (!c.length) return {};
+                                   var a = c[0];
+                                   if (!("naturalWidth" in a && "naturalHeight" in a)) return {};
+                                   for (var d = 0; a = c[d]; ++d) {
+                                       var e = a.getAttribute("data-pagespeed-url-hash");
+                                       e && (!(e in b) && 0 < a.width && 0 < a.height && 0 < a.naturalWidth && 0 < a.naturalHeight || e in b && a.width >= b[e].o && a.height >= b[e].m) && (b[e] = {
+                                           rw: a.width,
+                                           rh: a.height,
+                                           ow: a.naturalWidth,
+                                           oh: a.naturalHeight
+                                       })
+                                   }
+                                   return b
+                               }
+                               var C = "";
+                               u("pagespeed.CriticalImages.getBeaconData", function() {
+                                   return C
+                               });
+                               u("pagespeed.CriticalImages.Run", function(b, c, a, d, e, f) {
+                                   var r = new y(b, c, a, e, f);
+                                   x = r;
+                                   d && w(function() {
+                                       window.setTimeout(function() {
+                                           A(r)
+                                       }, 0)
+                                   })
+                               });
+                           })();
+                           pagespeed.CriticalImages.Run('/mod_pagespeed_beacon', 'https://preview.colorlib.com/theme/imagine/', 'oJcOUTg7z9', true, false, 'a2bvDE-56PA');
+                           //]]>
+                        </script>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="site-section" id="features-section">
+               <div class="container">
+                  
+                   
+               </div>
+            </div>
+            <div class="site-section" id="blog-section" style="margin-top: 120px; margin-bottom: 200px;">
+               <div class="container">
+                  <div class="row mb-1">
+                    
+   
+                     <div class="col-12">
+                        <div class="d-flex flex-column flex-row-fluid wrapper" id="kt_wrapper">
+                           <!--begin::Content-->
+                           <div class="content  d-flex flex-column flex-column-fluid" id="kt_content">
+                              <!--begin::Subheader-->
+                              
+                              <!--end::Subheader-->
+                              <!--begin::Entry-->
+                              <div class="d-flex flex-column-fluid">
+                                 <!--begin::Container-->
+                                 <div class=" container ">
+                                    <!--begin::Notice-->
+                                    
+                                    <!--end::Notice-->
+                                    <!--begin::Example-->
+                                    <!--begin::Card-->
+                                    <div class="card card-custom">
+                                       
+                                       <div class="card-body">
+                                          <div id="kt_calendar"></div>
+                                       </div>
+                                    </div>
+                                    <!--end::Card-->
+                                    
+                                    <!--end::Example-->
+                                 </div>
+                                 <!--end::Container-->
+                              </div>
+                              <!--end::Entry-->
+                           </div>
+                           <!--end::Content-->
+                          
+                        </div>
+                        <!--end::Wrapper-->
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <!-- section end -->
+            <!-- section start 
+            <section id="section-text" class="layout-pt-sm layout-pb-xl mobile-header-top-padding-0 ">
+               <div class="container">
+                  <div class="col-12 aligncenter layout-pt-sm">
+                     <iframe src="https://calendar.google.com/calendar/u/0/embed?src=c_upaofong8mgrmrkegn7ic7hk5s@group.calendar.google.com&ctz=Europe/London"
+                      width="100%" height="720" frameborder="0" scrolling="no" class="calendarSize"></iframe>
+                  </div>                 
+                </div>
+
+                
+            </section>-->
+            <!-- footer -->
+             <!-- footer start -->
+             <footer class="footer -type-1 bg-dark-1 m-100">
+               <!-- container start -->
+               <div class="container">
+                  <div class="footer__top">
+                     <!-- row start -->
+                     <div class="row y-gap-48 justify-content-between container">
+                        <div class="col-lg-6">
+                           <p href="index.html" class="footer__logo text-white font-brew">
+                              Ethereum Cat Herders
+                           </p>
+                           <h5 class ="text-white fw-300 mt-16 col-lg-9" style="padding-left:0px;" >
+                              Decentralized project management for the Ethereum Network
+                           </h5>
+                           <img class="relative mt-32" src="img/general/paws.png" alt="" />
+                        </div>
+                        <div class="col-lg-auto col-sm-4">
+                           <h4 class="text-xl fw-500 text-white">
+                              Links
+                           </h4>
+                           <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                              <div><a href="index.html" class="button -underline">Home</a></div>
+                              <div><a href="network_upgrades.html" class="button -underline mt-4">Activities</a></div>
+                              <div><a href="calendar.html" class="button -underline mt-4">Calendar</a></div>
+                              <div><a href="blog.html" class="button -underline mt-4">Blog</a></div>
+                              <div><a href="ech_youtube.html" class="button -underline mt-4">ECH Youtube</a></div>
+                              <div><a href="about_us.html" class="button -underline mt-4">About Us</a></div>
+                              <div><a href="branding_assets.html"  class="button -underline mt-4">ECH Branding Assets</a></div>
+                              
+                           </div>
+                        </div>
+                        <div class="col-lg-auto col-auto">
+                           <h4 class="text-xl fw-500 text-white">
+                              Follow us
+                           </h4>
+                           <div class="social -bordered mt-16 sm:mt-12">
+                              <a class="social__item text-white border-light" href="https://twitter.com/EthCatHerders">
+                              <i class="fa fa-twitter"></i>
+                              </a>
+                              <a class="social__item text-white border-light" href="https://github.com/ethereum-cat-herders">
+                              <i class="fa fa-github"></i>
+                              </a>
+                              <a class="social__item text-white border-light" href="https://www.youtube.com/channel/UCD9iiIwTRtLDYcEWONs2Q3A">
+                              <i class="fa fa-youtube-play"></i>
+                              <a class="social__item text-white border-light" href="https://www.linkedin.com/company/ethereum-cat-herders/">
+                                 <i class="fa fa-linkedin"></i>
+                              </a>
+                           </div>
+                           <h4 class="text-xl fw-500 text-white mt-24">
+                              Email us
+                           </h4>
+                           <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                              <div><a href='mailto:support@ethereumcatherders.com' class="button -underline">support@ethereumcatherders.com</a></div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- row end -->
+                  </div>
+                  
+               </div>
+               <!-- container end -->
+            </footer>
+            <!-- footer end -->
+         </main>
+      </div>
+      <!--begin::Global Theme Bundle(used by all pages)-->
+      <script src="assets/plugins.bundle.js"></script>
+      <script src="assets/prismjs.bundle.js"></script>
+      <script src="assets/scripts.bundle.js"></script>
+      <!--end::Global Theme Bundle-->
+      <!--begin::Page Vendors(used by this page)-->
+      <script src="assets/fullcalendar.bundle.js"></script>
+      <!--end::Page Vendors-->
+      <!--begin::Page Scripts(used by this page)-->
+      <script src="assets/google.js"></script>
+      <script src='https://code.jquery.com/jquery-1.12.4.min.js'></script>
+      <script src="js/vendors.js"></script>
+      <script src="js/main.js"></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script><script  src="js/script.js"></script>
+   </body>
+</html>
