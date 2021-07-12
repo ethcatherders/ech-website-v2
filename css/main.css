@@ -485,7 +485,7 @@ img {max-width:100%; height:auto}
 .video-player__playing {
   margin-top: 55px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 73.3%;
     left: 168px;
@@ -499,7 +499,7 @@ img {max-width:100%; height:auto}
   .video-player__playing {
     margin-top: 55px;
       position: relative;
-      padding-bottom: 50%;
+      padding-bottom: 60%;
       overflow: hidden;
       max-width: 73.3%;
       left: 128px;
@@ -516,11 +516,11 @@ img {max-width:100%; height:auto}
   .video-player__playing {
     margin-top: 55px;
       position: relative;
-      padding-bottom: 50%;
+      padding-bottom: 60%;
       overflow: hidden;
       max-width: 73.3%;
-      left: 105px;
-      top: 50px;
+      left: 115px;
+      top: 60px;
       border-radius: 35px;
       height: 200px;
   }
@@ -533,11 +533,11 @@ img {max-width:100%; height:auto}
   .video-player__playing {
     margin-top: 55px;
       position: relative;
-      padding-bottom: 50%;
+      padding-bottom: 60%;
       overflow: hidden;
       max-width: 73.3%;
-      left: 75px;
-      top: 50px;
+      left: 95px;
+      top: 60px;
       border-radius: 35px;
       height: 200px;
   }
@@ -548,11 +548,11 @@ img {max-width:100%; height:auto}
   .video-player__playing {
     margin-top: 55px;
       position: relative;
-      padding-bottom: 50%;
+      padding-bottom: 60%;
       overflow: hidden;
       max-width: 73.3%;
-      left: 65px;
-      top: 50px;
+      left: 75px;
+      top: 60px;
       border-radius: 35px;
       height: 200px;
   }
@@ -563,11 +563,11 @@ img {max-width:100%; height:auto}
   .video-player__playing {
     margin-top: 55px;
       position: relative;
-      padding-bottom: 50%;
+      padding-bottom: 60%;
       overflow: hidden;
       max-width: 73.3%;
-      left: 50px;
-      top: 50px;
+      left: 60px;
+      top: 60px;
       border-radius: 35px;
       height: 200px;
   }
@@ -578,11 +578,11 @@ img {max-width:100%; height:auto}
   .video-player__playing {
     margin-top: 55px;
       position: relative;
-      padding-bottom: 50%;
+      padding-bottom: 60%;
       overflow: hidden;
       max-width: 73.3%;
-      left: 35px;
-      top: 50px;
+      left: 47px;
+      top: 60px;
       border-radius: 35px;
       height: 200px;
   }
@@ -610,13 +610,13 @@ img {max-width:100%; height:auto}
 .video-thumb:not(:last-child) {
   margin-right: 2%;
   width: 70%;
-  height: 126px;
+  height: 106px;
 }
 
 .video-thumb.active {
   cursor: default;
   width: 70%;
-  height: 126px;
+  height: 106px;
 }
 
 .video-thumb:before,
@@ -884,6 +884,7 @@ img {max-width:100%; height:auto}
   max-height: 100%;
   transition: all 500ms linear;
   will-change: opacity, max-height;
+  margin-bottom: 40px;
 }
 .accordion .accordion-content {
   opacity: 0;
@@ -2314,7 +2315,7 @@ h6 {
 
 .thirdvid {
   width:70%; 
-  height: 126px;
+  height: 106px;
 }
 
 
@@ -2437,7 +2438,7 @@ h6 {
   .video-player__playing {
     margin-top: 55px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 73.3%;
     left: 148px;
@@ -2476,11 +2477,11 @@ h6 {
     .video-player__playing {
       margin-top: 55px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 62.3%;
     left: 80px;
-    top: 0px;
+    top: 20px;
     border-radius: 35px;
     height: 200px;
     }
@@ -2510,11 +2511,11 @@ h6 {
     .video-player__playing {
       margin-top: 55px;
       position: relative;
-      padding-bottom: 50%;
+      padding-bottom: 60%;
       overflow: hidden;
       max-width: 65.3%;
-      left: 52px;
-      top: -10px;
+      left: 62px;
+      top: 20px;
       border-radius: 35px;
       height: 200px;
     }
@@ -2525,11 +2526,11 @@ h6 {
   .video-player__playing {
     margin-top: 55px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 65.3%;
-    left: 52px;
-    top: -10px;
+    left: 61px;
+    top: 20px;
     border-radius: 35px;
     height: 200px;
   }
@@ -2540,11 +2541,11 @@ h6 {
     .video-player__playing {
       margin-top: 55px;
       position: relative;
-      padding-bottom: 50%;
+      padding-bottom: 60%;
       overflow: hidden;
       max-width: 65.3%;
-      left: 52px;
-      top: -10px;
+      left: 61px;
+      top: 20px;
       border-radius: 35px;
       height: 200px;
     }
@@ -2598,11 +2599,11 @@ h6 {
     .video-player__playing {
       margin-top: 55px;
       position: relative;
-      padding-bottom: 50%;
+      padding-bottom: 60%;
       overflow: hidden;
       max-width: 65.3%;
-      left: 43px;
-      top: 8px;
+      left: 50px;
+      top: 22px;
       border-radius: 35px;
       height: 200px;
     }
@@ -2639,11 +2640,11 @@ h6 {
   .video-player__playing {
     margin-top: 55px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 65.3%;
-    left: 37px;
-    top: -13px;
+    left: 45px;
+    top: 2px;
     border-radius: 35px;
     height: 200px;
   }
@@ -2664,11 +2665,11 @@ h6 {
   .video-player__playing {
     margin-top: 55px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 65.3%;
     left: 37px;
-    top: -3px;
+    top: 13px;
     border-radius: 35px;
     height: 200px;
   }
@@ -2728,11 +2729,11 @@ h6 {
   .video-player__playing {
     margin-top: 55px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 65.3%;
     left: 31px;
-    top: -13px;
+    top: 0px;
     border-radius: 35px;
     height: 200px;
   }
@@ -2780,11 +2781,11 @@ h6 {
   .video-player__playing {
     margin-top: 55px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 92%;
     left: 152px;
-    top: -11px;
+    top: 9px;
     border-radius: 35px;
     height: 200px;
   } 
@@ -2795,11 +2796,11 @@ h6 {
   .video-player__playing {
     margin-top: 55px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 92%;
-    left: 121px;
-    top: -14px;
+    left: 131px;
+    top: 6px;
     border-radius: 35px;
     height: 200px;
   } 
@@ -2844,11 +2845,11 @@ h6 {
   .video-player__playing {
     margin-top: 50px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 97.3%;
-    left: 109px;
-    top: -4px;
+    left: 119px;
+    top: 6px;
     border-radius: 0px;
     height: 200px;
   }
@@ -2861,11 +2862,11 @@ h6 {
   .video-player__playing {
     margin-top: 50px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 97.3%;
     left: 102px;
-    top: -12px;
+    top: 8px;
     border-radius: 0px;
     height: 200px;
   }
@@ -2880,11 +2881,11 @@ h6 {
   .video-player__playing {
     margin-top: 50px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 97.3%;
-    left: 89px;
-    top: -8px;
+    left: 97px;
+    top: 10px;
     border-radius: 0px;
     height: 200px;
   }
@@ -2905,11 +2906,11 @@ h6 {
   .video-player__playing {
     margin-top: 50px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 97.3%;
-    left: 73px;
-    top: -14px;
+    left: 83px;
+    top: 8px;
     border-radius: 0px;
     height: 200px;
   }
@@ -2938,11 +2939,11 @@ h6 {
   .video-player__playing {
     margin-top: 50px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 97.3%;
     left: 68px;
-    top: -21px;
+    top: -5px;
     border-radius: 0px;
     height: 200px;
   }
@@ -2954,11 +2955,11 @@ h6 {
   .video-player__playing {
     margin-top: 50px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 97.3%;
     left: 62px;
-    top: -21px;
+    top: -5px;
     border-radius: 0px;
     height: 200px;
   }
@@ -2971,11 +2972,11 @@ h6 {
   .video-player__playing {
     margin-top: 50px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 97.3%;
-    left: 58px;
-    top: -21px;
+    left: 57px;
+    top: -1px;
     border-radius: 0px;
     height: 200px;
   }
@@ -2987,11 +2988,11 @@ h6 {
   .video-player__playing {
     margin-top: 50px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 97.3%;
-    left: 50px;
-    top: -21px;
+    left: 49px;
+    top: -1px;
     border-radius: 0px;
     height: 200px
   }
@@ -3022,11 +3023,11 @@ h6 {
   .video-player__playing {
     margin-top: 50px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 97.3%;
-    left: 50px;
-    top: -21px;
+    left: 48px;
+    top: -6px;
     border-radius: 0px;
     height: 200px;
   }
@@ -3037,11 +3038,11 @@ h6 {
   .video-player__playing {
     margin-top: 50px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 87.3%;
     left: 59px;
-    top: -21px;
+    top: 6px;
     border-radius: 0px;
     height: 200px;
   }
@@ -3055,11 +3056,11 @@ h6 {
   .video-player__playing {
     margin-top: 50px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 87.3%;
     left: 53px;
-    top: -21px;
+    top: 8px;
     border-radius: 0px;
     height: 200px;
   }
@@ -3073,11 +3074,11 @@ h6 {
   .video-player__playing {
     margin-top: 50px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 87.3%;
     left: 52px;
-    top: -21px;
+    top: 14px;
     border-radius: 0px;
     height: 200px;
   }
@@ -3118,11 +3119,11 @@ h6 {
   .video-player__playing {
     margin-top: 50px;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     overflow: hidden;
     max-width: 87.3%;
     left: 37px;
-    top: -21px;
+    top: 14px;
     border-radius: 0px;
     height: 200px;
   }
@@ -5232,6 +5233,14 @@ h3 {
   justify-content: center;
 }
 
+.card-title2 {
+  font-size: 18px; 
+  font-weight: bold; 
+  margin-top: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
 
 @media (max-width: 1200px) {
   .nav__container {
@@ -5266,6 +5275,9 @@ h3 {
     padding-top: 1.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+  .cat-none{
+    display: none;
   }
 }
 
@@ -6297,7 +6309,7 @@ body.preloader-visible .preloader__progress {
     .video-player__playing {
       margin-top: 85px;
       position: relative;
-      padding-bottom: 50%;
+      padding-bottom: 60%;
       overflow: hidden;
       max-width: 67.3%;
       left: 24px;

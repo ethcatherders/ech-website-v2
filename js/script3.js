@@ -8,7 +8,7 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player('player', {
     height: '315',
     width: '560',
-    videoId: 'qnu_tBM9aGM',
+    videoId: 'BTkFfN4daeE',
     events: {
       'onReady': function() {
         $(".video-thumb").click(function() {
