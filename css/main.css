@@ -8,7 +8,7 @@ body{
 }
 
 .holder {
-  max-width: 685px;
+  max-width: 1794px;
   width: 100%;
   margin: 0 auto;
 }
@@ -23,12 +23,6 @@ body{
 }
 
 
-img[usemap] {
-	border: none;
-	height: auto;
-  max-width: 100%;
-	width: auto;
-}  
 
 
 #news-slider{
@@ -824,7 +818,7 @@ img {max-width:100%; height:auto}
   text-align: left;
   width: 100%;
   padding: 1em 0;
-  color: #000;
+  color: #232323;
   font-size: 2.15rem;
   font-weight: 700;
   border: none;
