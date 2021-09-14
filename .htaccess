@@ -1,6 +1,38 @@
+
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ethereumcatherders\.site [NC]
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://ethereumcatherders.site/$1 [R,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+# This tag loads the rewrite module
+    <IfModule mod_rewrite.c>
+# enable the rewrite engine
+    RewriteEngine On
+# Set your root directory
+    RewriteBase /
+
+# Remove the .html extension
+    RewriteCond %{THE_REQUEST} ^GET\ (.*)\.html\ HTTP
+    RewriteRule (.*)\.html$ $1 [R=301]
+
+# Remove index and reference the directory
+    RewriteRule (.*)/index$ $1/ [R=301]
+
+# Remove trailing slash if not a directory
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} /$
+    RewriteRule (.*)/ $1 [R=301]
+
+# Forward request to html file, **but don't redirect (bot friendly)**
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    RewriteCond %{REQUEST_URI} !/$
+    RewriteRule (.*) $1\.html [L]
+    </IfModule>
+    
+
+RewriteEngine On 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteRule ^([^\.]+)$ $1.html [NC, L] 
