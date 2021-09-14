@@ -1,3 +1,11 @@
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ethereumcatherders\.site [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://ethereumcatherders.site/$1 [R,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
 # This tag loads the rewrite module
     <IfModule mod_rewrite.c>
 # enable the rewrite engine
