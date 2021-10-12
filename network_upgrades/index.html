@@ -15,6 +15,7 @@
       <link rel="stylesheet" href="../css/main.css">
       <!-- Favicon -->
       <link rel="shortcut icon" href="../img/general/favicon.ico"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
       <title>Ethereum Cat Herders</title>
    </head>
    <body class="preloader-visible" data-barba="wrapper">
@@ -247,7 +248,7 @@
                </div>
             </section>
             <!-- section end -->
-            <section id="section-text" class="layout-pt-sm mobile-header-top-padding-0 layout-pb-sm ">
+            <section id="section-text" class="layout-pt-sm mobile-header-top-padding-0  ">
                <div class="container">
                   <div class="row align-items-center">
                      <div class="col-12">
@@ -282,36 +283,146 @@
                   <h5 class="fw-500 mt-40 container">
                      In the section below you can find more information on past and upcoming network upgrades.
                   </h5>
-                  <div class="row flex-start- mt-48">
-                     <div class="col-5 mobile-col-width-80">
-                        <h2 class="fw-900 mt-24 container"><a class="dashed-underline" href="https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/mainnet-upgrades/london.md">London Upgrade</a></h2>
-                        <h5 class="fw-300 mt-12 container dashed-underline">
-                           <span><img class="pr-12 pl-32"src="../img/general/icon-paw.png"/><a class="dashed-underline" href="https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/client-integration-testnets/calaveras.md" target="_blank" >Calaveras </a></span>
-                        </h5>
-                        <h5 class="fw-300 mt-12 container dashed-underline">
-                           <span><img class="pr-12 pl-32"src="../img/general/icon-paw.png"/><a class="dashed-underline" href="https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/client-integration-testnets/baikal.md" target="_blank" >Baikal testnet </a></span>
-                        </h5>
-                        <h5 class="fw-300 mt-12 container dashed-underline">
-                           <span><img class="pr-12 pl-32"src="../img/general/icon-paw.png"/><a class="dashed-underline" href="https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/client-integration-testnets/aleut.md" target="_blank">Aleut testnet </a></span>
-                        </h5>
-                     </div>
-                     <div class="col-1 d-lg-block d-xl-block text-center mt-24">
-                        <img class="" src="../img/general/line4.png"/>
-                     </div>
-                     <div class="col-6 mobile-col-width-100">
+
+                  <div class="row flex-start- mt-12">
+                     <div class="col-12 mobile-col-width-100">
+                        <h2 class="fw-900 mt-24 container">Altair Upgrade</h2>
                         <h5 class="fw-300 mt-24 container">
-                           The network upgrade progress tracker helps with keeping track of improvement proposals in different phases of network upgrade. Clients' development and integration can be followed on the latest version of the <a href="https://github.com/ethereum/eth1.0-specs/tree/master/network-upgrades/client-integration-testnets" target="_blank" class="dashed-underline">developer's testnet</a>. Read <a href="https://medium.com/ethereum-cat-herders/shedding-light-on-the-ethereum-network-upgrade-process-4c6186ed442c" target="_blank" class="dashed-underline">Shedding light on the Ethereum Network Upgrade Process</a> for more information
+                           This is the first planned network upgrade for the Beacon chain (Ethereum 2.0). It is already activated on the Prater testnet. Follow the <a href="https://prater.consensus-monitor.stokes.io/" target="_blank" class="dashed-underline">consensus monitor</a> shared by Alex Stokes.
                         </h5>
-                        <a href="https://github.com/ethereum/eth1.0-specs/projects/1" target="_blank" class="button -md -black two mt-24 ml130">
-                        Network Upgrade <br> <span style="margin-top: 6px;"> Process Tracker</span>
-                        </a>                           
-                        <span><img class="float-r col-3 cat-none" src="../img/general/cat-white.png"/></span>
+                        <h5 class="fw-300 mt-24 container">
+                           <ul style="list-style-position: inside;">
+                              <li><strong>Mainnet upgrade date</strong> - Wednesday, 27th of October</li>
+                              <li><strong>Planned for epoch</strong> - 74240</li>
+                              <li><strong>Expected time</strong> -  10:56:23 UTC</li>
+                              <li>Ethereum Foundation's <a href="https://blog.ethereum.org/2021/10/05/altair-announcement/" rel="nofollow" target="_blank" class="dashed-underline">Altair Mainnet Announcement</a></li>
+                           </ul>
+                        </h5>
+                        <h3 class="fw-500 mt-48 container">
+                           Resources
+                        </h3>
+                        <h5 class="fw-300 mt-24 container">
+                           <a href="https://www.youtube.com/playlist?list=PL4cwHXAawZxoEw29YmqJtNoFaENUUAREn" target="_blank" class="dashed-underline">PEEPanEIP</a> recordings
+                        </h5>
+                        <h5 class="fw-300 mt-24 container">
+                           <ul style="list-style-position: inside;"></ul>
+                              <li><a href="https://youtu.be/iaAEGs1DMgQ" rel="nofollow target="_blank" class="dashed-underline">Altair Beacon chain upgrade</a> with Vitalik and Danny</li>
+                              <li><a href="https://youtu.be/KdhHJa2SEwY" rel="nofollow target="_blank" class="dashed-underline">Altair - Accounting reform</a> with Alex Stokes</li>
+                              <li><a href="https://youtu.be/Kv643dgRmMI" rel="nofollow target="_blank" class="dashed-underline">Altair in Teku</a> with Adrian Sutton</li>
+                              <li><a href="https://youtu.be/92BeeDr1Nhw" rel="nofollow target="_blank" class="dashed-underline">Altair upgrade &amp; roadmap (Prysm)</a> with Raul Jordan &amp; Terence</li>
+                              <li><a href="https://youtu.be/3xD2UyazRTE" rel="nofollow target="_blank" class="dashed-underline">Beacon chain metrics &amp; benchmarking</a> with Parithosh &amp; Leonardo</li>
+                              <li><a href="https://youtu.be/FlFKZR_ofSo" rel="nofollow target="_blank" class="dashed-underline">A Brief History of Ethereum's Future</a> with Ben Edgington</li>
+                              </ul>
+                        </h5>
+                        <h3 class="fw-500 mt-48 container">
+                           Client Specs
+                        </h3>
+                        <h5 class="fw-300 mt-24 container">
+
+                           <table role="table">
+                              <thead>
+                                 <tr>
+                                    <th style="width: 150px; background-color: #282828; color: white;padding-left: 10px; ">Client</th>
+                                    <th style="width: 200px;background-color: #282828; color: white; ">Version Number</th>
+                                    <th style="width: 200px;background-color: #282828; color: white;  ">Release Link</th>
+                                 </tr>
+                              </thead>
+                              
+                              <tbody>
+                                 <tr>
+                                    <td style="padding-left: 10px;">Lighthouse</td>
+                                    <td>v2.0.0</td>
+                                    <td><a href="https://github.com/sigp/lighthouse/releases/tag/v2.0.0" target="_blank" class="dashed-underline">Release</a></td>
+                                 </tr>
+                                 <tr>
+                                    <td style="padding-left: 10px; background-color: #e9e9e9;">Lodestar</td>
+                                    <td style="background-color: #e9e9e9;">v0.31.0</td>
+                                    <td style="background-color: #e9e9e9;"><a href="https://github.com/ChainSafe/lodestar/releases/tag/v0.31.0" target="_blank" class="dashed-underline">Release</a></td>
+                                 </tr>
+                                 <tr>
+                                    <td style="padding-left: 10px;">Nimbus</td>
+                                    <td>v1.5.1</td>
+                                    <td><a href="https://github.com/status-im/nimbus-eth2/releases/tag/v1.5.1" target="_blank" class="dashed-underline">Release</a></td>
+                                 </tr>
+                                 <tr>
+                                    <td style="padding-left: 10px; background-color: #e9e9e9;">Prysm</td>
+                                    <td style="background-color: #e9e9e9;">v2.0.0</td>
+                                    <td style="background-color: #e9e9e9;"><a href="https://github.com/prysmaticlabs/prysm/releases/tag/v2.0.0" target="_blank" class="dashed-underline">Release</a></td>
+                                 </tr>
+                                 <tr>
+                                    <td style="padding-left: 10px;">Teku</td>
+                                    <td>21.9.2</td>
+                                    <td><a href="https://github.com/ConsenSys/teku/releases/tag/21.9.2" target="_blank" class="dashed-underline">Release</a></td>
+                                 </tr>
+                              </tbody>
+                           </table>
+
+                        </h5>
+                        
                      </div>
+                  </div>
+
+
+                  <div class="row flex-start- mt-48">
+                     <div class="col-12 mobile-col-width-100">
+                        <h2 class="fw-900 mt-24 container"><a class="dashed-underline" href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md">Arrow Glacier</a></h2>
+                        <h5 class="fw-300 mt-24 container">
+                           This is a planned upgrade to delay the difficulty bomb to be noticeable in May 2022.
+                        </h5>
+                        <h5 class="fw-300 mt-24 container">
+                           It is expected in December 2021 with deploying the <a href="https://eips.ethereum.org/EIPS/eip-4345" target="_blank" class="dashed-underline">EIP-4345: Difficulty Bomb Delay to May 2022</a> on the Ethereum mainnet.
+                        </h5>
+                        <h5 class="fw-300 mt-24 container">
+                           Authors Tim Beiko & James Hancock propose the difficulty bomb to push to 10,500,000 blocks later than the actual block number. It is targeting for the Shanghai upgrade and/or the Merge to occur before May 2022. Either the bomb can be readjusted at that time, or removed altogether.
+                        </h5>
+                        <h5 class="fw-300 mt-24 container">
+                           To understand how “Difficulty bomb” works in Ethereum blockchain, follow the recording of <a href="https://www.youtube.com/playlist?list=PL4cwHXAawZxqu0PKKyMzG_3BJV_xZTi1F" target="_blank" class="dashed-underline">PEEPanEIP</a> #39: Difficulty bomb & EIP-3554 with James Hancock
+                        </h5>
+
+                        <div class="col-6 mobile-col-width-100 mt-24">
+                           <iframe width="100%" height="315" src="https://www.youtube.com/embed/QwCPrw-4d98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                     </div>
+
+                    
+
+                     <div class="col-12 mobile-col-width-100 mt-24 ml-12">
+                        <img class="relative" src="../img/general/paws.png" alt="">
+                     </div>
+
+                     
+                     
+                    
+
+
+                     <section id="section-text" class="">
+                        <div class="container">
+                           <div class="row align-items-center layout-pb-sm">
+                              
+                              <div class="col-md-10">
+                                 <h5 class="fw-300 mt-24 container">
+                                    The network upgrade progress tracker helps with keeping track of improvement proposals in different phases of network upgrade. Clients' development and integration can be followed on the latest version of the <a href="https://github.com/ethereum/eth1.0-specs/tree/master/network-upgrades/client-integration-testnets" target="_blank" class="dashed-underline">developer's testnet</a>. Read <a href="https://medium.com/ethereum-cat-herders/shedding-light-on-the-ethereum-network-upgrade-process-4c6186ed442c" target="_blank" class="dashed-underline">Shedding light on the Ethereum Network Upgrade Process</a> for more information
+                                 </h5>
+                                 <div class="spacer-half"></div>
+                              </div>
+                              <div class="col-md-2">
+                                 <span><img class="float-r cat-none" src="../img/general/cat-white.png"/></span>
+                              </div>
+                              <div class="col-md-12 ml-12">
+                                 <a href="https://github.com/ethereum/eth1.0-specs/projects/1"  target="_blank" class="button -md -black two mt-24">
+                                    Network Upgrade <br> <span style="margin-top: 6px;"> Process Tracker</span>
+                                 </a>    
+                              </div>
+                           </div>
+                           
+                        </div>
+                     </section>
+                     
                   </div>
                </div>
             </section>
             <div class="container">
-               <h1 class="fw-900 mt-80 container" style="margin-bottom: -60px">Ethereum blockchain upgrades</h1>
+               <h1 class="fw-900 mt-80 container" style="margin-bottom: -60px; line-height: 30px;">Ethereum blockchain upgrades</h1>
             </div>
             <div class="container">
                <div class="row">
@@ -632,7 +743,7 @@
                            </h4>
                            <div class="footer__content text-base text-light mt-16 sm:mt-12">
                               <div><p style="float: right;
-                                 margin-top: 35px;">v1.3.2</p></div>
+                                 margin-top: 35px;">v1.4.0</p></div>
                            </div>
                         </div>
                      </div>
