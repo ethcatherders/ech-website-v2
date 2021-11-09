@@ -29,6 +29,17 @@ body{
     margin-top: 80px;
 }
 
+.colorblack{
+  color: #323232;
+}
+
+.colorblack:hover {
+
+  color: #323232;
+ 
+
+}
+
 .black-color {
 
   color: #000;
@@ -15206,6 +15217,10 @@ html.full-page-slider body {
 
 
 @media (max-width: 767px) {
+
+  .paw-none {
+    display: none;
+  }
 
   .leading-md {
     line-height: 1.3 !important;
