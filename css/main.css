@@ -221,7 +221,7 @@ body{
     background: #fff;
     position: absolute;
     top: 45%;
-    left: 0px;
+    left: -20px;
     padding: 0 18px 0 15px;
     border-radius: 50px;
     box-shadow: -1px 2px 0px 3px #222222;
@@ -231,7 +231,7 @@ body{
     background: #fff;
     position: absolute;
     top:45%;
-    right: 0px;
+    right: -20px;
     padding: 0 15px 0 18px;
     border-radius: 50px;
     box-shadow: 1px 2px 0px 3px #222222;
@@ -15214,9 +15214,25 @@ html.full-page-slider body {
   width: 100%;
 }
 
+.lh-h1 {
+  line-height: 1.7rem;
+}
+
+.ml24 {
+  margin-left: 0px;
+}
+
 
 
 @media (max-width: 767px) {
+
+  .ml24 {
+    margin-left: -24px;
+  }
+
+  .mb50 {
+    margin-bottom: 50px;
+  }
 
   .paw-none {
     display: none;
