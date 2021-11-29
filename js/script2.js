@@ -10,7 +10,7 @@ function onYouTubeIframeAPIReady() {
     width: '560',
     //LIVE STREAM ID: GQcXUn5XG5c
     //NORMAL videoId: 'qnu_tBM9aGM',
-    videoId: 'YzL2GmxA6Wk',
+    videoId: 'aH3Le-3v320',
     events: {
       'onReady': function() {
         $(".video-thumb").click(function() {
