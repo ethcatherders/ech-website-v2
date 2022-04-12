@@ -1,820 +1,975 @@
 <!DOCTYPE html>
 <html lang="en">
-   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-   <head>
-      <!-- Required meta tags -->
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- Google fonts -->
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
-      <link rel='stylesheet' href='../css/bootstrap.min.css'>
-      <link rel='stylesheet' href='../css/owl.carousel.min.css'>
-      <link rel='stylesheet' href='../css/font-awesome.min.css'>
-      <!-- Stylesheets -->
-      <link rel="stylesheet" href="../css/vendors.css">
-      <link rel="stylesheet" href="../css/main.css">
-      <!-- Favicon -->
-      <link rel="shortcut icon" href="../img/general/favicon.ico"/>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-      <title>Ethereum Cat Herders</title>
-   </head>
-   <body class="preloader-visible" data-barba="wrapper">
-      <!-- preloader start -->
-      <div class="preloader js-preloader">
-         <div class="preloader__bg"></div>
-         <div class="preloader__progress">
-            <div class="preloader__progress__inner"></div>
-         </div>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Google fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;900&display=swap"
+      rel="stylesheet">
+   <link rel='stylesheet' href='../css/bootstrap.min.css'>
+   <link rel='stylesheet' href='../css/owl.carousel.min.css'>
+   <link rel='stylesheet' href='../css/font-awesome.min.css'>
+   <!-- Stylesheets -->
+   <link rel="stylesheet" href="../css/vendors.css">
+   <link rel="stylesheet" href="../css/main.css">
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="../img/general/favicon.ico" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+   <title>Ethereum Cat Herders</title>
+</head>
+
+<body class="preloader-visible" data-barba="wrapper">
+   <!-- preloader start -->
+   <div class="preloader js-preloader">
+      <div class="preloader__bg"></div>
+      <div class="preloader__progress">
+         <div class="preloader__progress__inner"></div>
       </div>
-      <!-- preloader end -->
-      <!-- cursor start -->
-      <div class="cursor js-cursor">
-         <div class="cursor__wrapper">
-            <div class="cursor__follower js-follower"></div>
-            <div class="cursor__label js-label"></div>
-            <div class="cursor__icon js-icon"></div>
-         </div>
+   </div>
+   <!-- preloader end -->
+   <!-- cursor start -->
+   <div class="cursor js-cursor">
+      <div class="cursor__wrapper">
+         <div class="cursor__follower js-follower"></div>
+         <div class="cursor__label js-label"></div>
+         <div class="cursor__icon js-icon"></div>
       </div>
-      <!-- cursor end -->
-      <!-- barba container start -->
-      <div class="barba-container" data-barba="container">
-         <!-- to-top-button start -->
-         <!-- to-top-button end -->
-         <main class="">
-            <!-- header start -->
-            <header class="header -light -sticky-light js-header ">
-               <!-- header__bar start -->
-               <div class="header__bar">
-                  <div class="overflow-hidden">
-                     <div class="header__logo js-header-logo">
-                        <a href="https://ethereumcatherders.com/">
+   </div>
+   <!-- cursor end -->
+   <!-- barba container start -->
+   <div class="barba-container" data-barba="container">
+      <!-- to-top-button start -->
+      <!-- to-top-button end -->
+      <main class="">
+         <!-- header start -->
+         <header class="header -light -sticky-light js-header ">
+            <!-- header__bar start -->
+            <div class="header__bar">
+               <div class="overflow-hidden">
+                  <div class="header__logo js-header-logo">
+                     <a href="https://www.ethereumcatherders.com/">
                         <img class="header__logo__light" src="../img/logo/logo-dark.svg" alt="logo">
-                        </a>
-                        <a href="https://ethereumcatherders.com/">
+                     </a>
+                     <a href="https://www.ethereumcatherders.com/">
                         <img class="header__logo__dark" src="../img/logo/logo-dark.svg" alt="logo">
-                        </a>
-                     </div>
-                  </div>
-                  <div class="navClassic-wrap js-header-menu-classic">
-                     <ul class="navClassic-list js-navClassic-list">
-                        <li>
-                           <a class="" href="https://ethereumcatherders.com/">
-                           Home
-                           </a>
-                        </li>
-                        <li class="">
-                           <a style="color: black;">Activities <span><img src="../img/general/chev-d.svg" style="color: black; width: 20px;"></span></a>
-                        </li>
-                        <li>
-                           <a href="../calendar/">
-                           Calendar
-                           </a>
-                        </li>
-                        <li>
-                           <a href="../blog/">
-                           Blog
-                           </a>
-                        </li>
-                        <li>
-                           <a href="../ech_youtube/">
-                           ECH Youtube
-                           </a>
-                        </li>
-                        <li>
-                           <a href="../about/">
-                           About Us
-                           </a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="header__menu__wrap overflow-hidden">
-                     <div class="header__menu js-header-menu">
-                        <button type="button" class="nav-button-open js-nav-open">
-                        <i class="icon" data-feather="menu"></i>
-                        </button>
-                     </div>
+                     </a>
                   </div>
                </div>
-               <!-- header__bar end -->
-               <!-- nav start -->
-               <nav class="nav js-nav">
-                  <div class="nav__inner js-nav-inner">
-                     <div class="nav__bg js-nav-bg">
-                        <div class="🐱">
-                           <div class="🐱b"></div>
-                           <div class="🐱h">
-                              <div class="🐱n"></div>
-                              <div class="🐱e 🐱e--r"></div>
-                              <div class="🐱e 🐱e--l"></div>
-                              <div class="🐱s">
-                                 <div class="🐱s__i"></div>
-                                 <div class="🐱s__i"></div>
-                                 <div class="🐱s__i"></div>
-                              </div>
-                              <div class="🐱s 🐱s--r">
-                                 <div class="🐱s__i"></div>
-                                 <div class="🐱s__i"></div>
-                                 <div class="🐱s__i"></div>
-                              </div>
-                              <div class="🐱ea 🐱ea--r"></div>
-                              <div class="🐱ea 🐱ea--l"></div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="nav__container">
-                        <div class="nav__header">
-                           <button type="button" class="nav-button-back js-nav-back">
-                           <i class="icon" data-feather="arrow-left-circle"></i>
-                           </button>
-                           <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
-                           <i class="icon" data-feather="x"></i>
-                           </button>
-                        </div>
-                        <div class="nav__content">
-                           <div class="nav__content__left">
-                              <div class="navList__wrap">
-                                 <ul class="navList js-navList">
-                                    <li>
-                                       <a class="" href="https://ethereumcatherders.com/">
-                                       Home
-                                       </a>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                       <a>Activities</a>
-                                       <ul class="subnav-list">
-                                          <li>
-                                             <a href="#">Network Upgrades</a>
-                                          </li>
-                                          <li>
-                                             <a href="../the_merge/">The Merge</a>
-                                          </li>
-                                          <li>
-                                             <a href="../eip_resources/">EIP Resources</a>
-                                          </li>
-                                          <li>
-                                             <a href="../dev_meetings/">Meetings</a>
-                                          </li>
-                                          <li>
-                                             <a href="../surveys/" target="_blank">Surveys</a>
-                                          </li>
-                                       </ul>
-                                    </li>
-                                    <li>
-                                       <a class="active" href="../calendar/">
-                                       Calendar
-                                       </a>
-                                    </li>
-                                    <li>
-                                       <a class="active" href="../blog/">
-                                       Blog
-                                       </a>
-                                    </li>
-                                    <li>
-                                       <a class="active" href="../ech_youtube/">
-                                       ECH Youtube
-                                       </a>
-                                    </li>
-                                    <li>
-                                       <a class="active" href="../about/">
-                                       About Us
-                                       </a>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="nav__content__right">
-                              <div class="nav__info">
-                                 <div class="nav__info__item js-navInfo-item">
-                                    <h5 class="text-sm tracking-none fw-500">
-                                       Follow us
-                                    </h5>
-                                    <div class="nav__info__content text-lg text-white mt-16">
-                                       <a href="https://twitter.com/EthCatHerders">Twitter</a>
-                                       <a href="https://github.com/ethereum-cat-herders">Github</a>
-                                       <a href="https://www.youtube.com/channel/UCD9iiIwTRtLDYcEWONs2Q3A">Youtube</a>
-                                       <a href="https://www.linkedin.com/company/ethereum-cat-herders/">Linkedin</a>
-                                    </div>
-                                 </div>
-                                 <div class="nav__info__item js-navInfo-item">
-                                    <h5 class="text-sm tracking-none fw-500">
-                                       Email us
-                                    </h5>
-                                    <div class="nav__info__content text-lg text-white mt-16">
-                                       <a href='mailto:support@ethereumcatherders.com'>support@ethereumcatherders.com</a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </nav>
-               <!-- nav end -->
-            </header>
-            <!-- header end -->
-            <section id="section-text" class="layout-pt-lg">
-               <div class="container">
-                  <div class="row align-items-center">
-                     <img class="container " src="../img/general/line2.png" alt="">
-                     <div class="container col-12">
-                        <div class="text-center" style="padding-bottom: 20px;">
-                           <div class="spacer-20"></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-            <section>
-               <div class="aligncenter mobile-d-none js-header-menu-classic">
+               <div class="navClassic-wrap js-header-menu-classic">
                   <ul class="navClassic-list js-navClassic-list">
                      <li>
-                        <a class="font-rob-black" href="#">
-                        Network Upgrades
+                        <a class="" href="https://www.ethereumcatherders.com/">
+                           Home
+                        </a>
+                     </li>
+                     <li class="">
+                        <a style="color: black;">Activities <span><img src="../img/general/chev-d.svg"
+                                 style="color: black; width: 20px;"></span></a>
+                     </li>
+                     <li>
+                        <a href="../calendar/">
+                           Calendar
                         </a>
                      </li>
                      <li>
-                        <a class="font-rob-darkgray" href="../the_merge/">
-                        The Merge
-                        </a>   
-                     </li>
-                     <li>
-                        <a class="font-rob-darkgray" href="../eip_resources/">
-                        EIP Resources
-                        </a>   
-                     </li>
-                     <li>
-                        <a class="font-rob-darkgray" href="../dev_meetings/">
-                        Meetings
+                        <a href="../blog/">
+                           Blog
                         </a>
                      </li>
                      <li>
-                        <a class="font-rob-darkgray" href="../surveys/">
-                        Surveys
+                        <a href="../ech_youtube/">
+                           ECH Youtube
+                        </a>
+                     </li>
+                     <li>
+                        <a href="../about/">
+                           About Us
                         </a>
                      </li>
                   </ul>
                </div>
-            </section>
-            <!-- section end -->
-            <section id="section-text" class="layout-pt-sm mobile-header-top-padding-0  ">
-               <div class="container">
-                  <div class="row align-items-center">
-                     <div class="col-12">
-                        <h1 class="fw-900 mt-24 container lh-h1">Network Upgrades</h1>
-                        <h5 class="fw-300 mt-24 container">
-                           Technical upgrades are made periodically to the Ethereum protocol. Upgrades typically comprise of <a href="https://eips.ethereum.org/core" target="_blank" class="dashed-underline">Core Ethereum Improvement Proposals (EIPs)</a> that have achieved consensus across the Ethereum clients & community.
-                        </h5>
-                        
-                     </div>
-                  </div>
-               </div>
-            </section>
-
-            <div class="container">
-               <h1 class="fw-900 mt-80 container" style="margin-bottom: -60px; line-height: 30px;">Ethereum blockchain upgrades</h1>
-            </div>
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12 ">
-                     <div id="news-slider" class="owl-carousel">
-                        <div class="post-slide">
-                           <div class="post-img">
-                              <img src="../img/general/arrowglacier.jpg" alt="">
-                              <a href="https://medium.com/ethereum-cat-herders/ethereum-arrow-glacier-upgrade-e8d20fa4c002" target="blank" class="over-layer"><i class="fa fa-link"></i></a>
-                           </div>
-                           <div class="post-content">
-                              <h3 class="post-title">
-                                 <p class="card-title2">Arrow Glacier
-                                 <span class="post-digit"><i class=""></i>13773000</span>
-                              </h3>
-                              <a href="https://eips.ethereum.org/EIPS/eip-4345" target="_blank" class="mr-10 black-color">EIP-4345</a>
-                              
-                              <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md" target="_blank" class="mr-10 black-color"><br>Specification</a><br>
-                              <span class="post-date"><i class="fa fa-clock-o mt-48"></i> </span>
-                              <a href="https://blog.ethereum.org/2021/11/10/arrow-glacier-announcement/" target="_blank" class="read-more mt-48">read more</a>
-                           </div>
-                        </div>
-
-                        <div class="post-slide">
-                           <div class="post-img">
-                              <img src="../img/general/london.jpg" alt="">
-                              <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md" target="blank" class="over-layer"><i class="fa fa-link"></i></a>
-                           </div>
-                           <div class="post-content">
-                              <h3 class="post-title">
-                                 <p class="card-title2">London
-                                 <span class="post-digit"><i class=""></i>12965000</span>
-                              </h3>
-                              <a href="https://eips.ethereum.org/EIPS/eip-1559" target="_blank" class="mr-10 black-color">EIP-1559</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-3198" target="_blank" class="mr-10 black-color">EIP-3198</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-3529" target="_blank" class="mr-10 black-color">EIP-3529</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-3541" target="_blank" class="mr-10 black-color">EIP-3541</a><br>
-                              <a href="https://eips.ethereum.org/EIPS/eip-3554" target="_blank" class="mr-10 black-color">EIP-3554</a>
-                              <a href="https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/mainnet-upgrades/london.md" target="_blank" class="mr-10 black-color">Specification</a><br>
-                              <span class="post-date"><i class="fa fa-clock-o mt-48"></i> </span>
-                              <a href="https://medium.com/ethereum-cat-herders/london-upgrade-overview-8eccb0041b41" target="_blank" class="read-more mt-48">read more</a>
-                           </div>
-                        </div>
-
-                        <div class="post-slide">
-                           <div class="post-img">
-                              <img src="../img/general/berlin.png" alt="">
-                              <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md" target="blank" class="over-layer"><i class="fa fa-link"></i></a>
-                           </div>
-                           <div class="post-content">
-                              <h3 class="post-title">
-                                 <p class="card-title2">Berlin
-                                 <span class="post-digit"><i class=""></i>12244000</span>
-                              </h3>
-                              <a href="https://eips.ethereum.org/EIPS/eip-2565" target="_blank" class="mr-10 black-color">EIP-2565</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-2929" target="_blank" class="mr-10 black-color">EIP-2929</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-2718" target="_blank" class="mr-10 black-color">EIP-2718</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-2930" target="_blank" class="mr-10 black-color">EIP-2930</a><br>
-                              <a href="https://eips.ethereum.org/EIPS/eip-2070" target="_blank" class="mr-10 black-color">HFM-2070</a>
-                              <a href="https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md" target="_blank" class="mr-10 black-color">Specification</a><br>
-                              <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 04/15/2021</span>
-                              <a href="https://blog.ethereum.org/2021/03/08/ethereum-berlin-upgrade-announcement/" target="_blank" class="read-more mt-48">read more</a>
-                           </div>
-                        </div>
-                        <div class="post-slide">
-                           <div class="post-img">
-                              <img src="../img/general/muir.png" alt="">
-                              <a href="https://eips.ethereum.org/EIPS/eip-2387" target="_blank" class="over-layer"><i class="fa fa-link"></i></a>
-                           </div>
-                           <div class="post-content">
-                              <h3 class="post-title">
-                                 <p class="card-title2">Muir Glacier
-                                 <span class="post-digit"><i class=""></i>9200000</span>
-                              </h3>
-                              <a href="https://eips.ethereum.org/EIPS/eip-2384" target="_blank" class="mr-10 black-color">EIP-2384</a><br>
-                              <a href="https://eips.ethereum.org/EIPS/eip-2387" target="_blank" class="mr-10 black-color">HFM-2387</a><br>
-                              <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 01/02/2020</span>
-                              <a href="https://blog.ethereum.org/2019/12/23/ethereum-muir-glacier-upgrade-announcement/" target="_blank" class="read-more mt-48">read more</a>
-                           </div>
-                        </div>
-                        <div class="post-slide">
-                           <div class="post-img">
-                              <img src="../img/general/instanbul.png" alt="">
-                              <a href="https://eips.ethereum.org/EIPS/eip-1679" target="_blank" class="over-layer"><i class="fa fa-link"></i></a>
-                           </div>
-                           <div class="post-content">
-                              <h3 class="post-title">
-                                 <p class="card-title2">Istanbul
-                                 <span class="post-digit"><i class=""></i>9069000</span>
-                              </h3>
-                              <a href="https://eips.ethereum.org/EIPS/eip-152" target="_blank" class="mr-10 black-color"> EIP-152</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-1108" target="_blank" class="mr-10 black-color">EIP-1108</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-1344" target="_blank" class="mr-10 black-color">EIP-1344</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-1884" target="_blank" class="mr-10 black-color">EIP-1884</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-2028" target="_blank" class="mr-10 black-color">EIP-2028</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-2200" target="_blank" class="mr-10 black-color">EIP-2200</a><br>
-                              <a href="https://eips.ethereum.org/EIPS/eip-1679" target="_blank" class="mr-10 black-color">HFM-1679</a><br>
-                              <span class="post-date"><i class="fa fa-clock-o" style="margin-top: 22px;"></i> 12/07/2019</span>
-                              <a href="https://blog.ethereum.org/2019/11/20/ethereum-istanbul-upgrade-announcement/" target="_blank" class="read-more" style="margin-top: 22px;">read more</a>
-                           </div>
-                        </div>
-                        <div class="post-slide">
-                           <div class="post-img">
-                              <img src="../img/general/saint.png" alt="">
-                              <a href="https://eips.ethereum.org/EIPS/eip-1716" target="_blank" class="over-layer"><i class="fa fa-link"></i></a>
-                           </div>
-                           <div class="post-content">
-                              <h3 class="post-title">
-                                 <p class="card-title2">St. Petersburg
-                                 <span class="post-digit"><i class=""></i>7280000</span>
-                              </h3>
-                              <a href="https://eips.ethereum.org/EIPS/eip-145" target="_blank" class="mr-10 black-color">EIP-145</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-1014" target="_blank" class="mr-10 black-color">EIP-1014</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-1052" target="_blank" class="mr-10 black-color">EIP-1052</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-1234" target="_blank" class="mr-10 black-color">EIP-1234</a><br>
-                              <a href="https://github.com/ethereum/EIPs/pull/1716/" target="_blank" class="mr-10 black-color">HFM-1716</a><br>
-                              <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 02/28/2019</span>
-                              <a href="https://blog.ethereum.org/2019/02/22/ethereum-constantinople-st-petersburg-upgrade-announcement/" target="_blank" class="read-more mt-48">read more</a>
-                           </div>
-                        </div>
-                        <div class="post-slide">
-                           <div class="post-img">
-                              <img src="../img/general/constant.png" alt="">
-                              <a href="https://eips.ethereum.org/EIPS/eip-1013" target="_blank" class="over-layer"><i class="fa fa-link"></i></a>
-                           </div>
-                           <div class="post-content">
-                              <h3 class="post-title">
-                                 <p class="card-title2">Constantinople
-                                 <span class="post-digit"><i class=""></i>7280000</span>
-                              </h3>
-                              <a href="https://eips.ethereum.org/EIPS/eip-145" target="_blank" class="mr-10 black-color">EIP-145</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-1014" target="_blank" class="mr-10 black-color">EIP-1014</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-1052" target="_blank" class="mr-10 black-color">EIP-1052</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-1234" target="_blank" class="mr-10 black-color">EIP-1234</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-1283" target="_blank" class="mr-10 black-color">EIP-1283</a><br>
-                              <a href="https://eips.ethereum.org/EIPS/eip-1013" target="_blank" class="mr-10 black-color">HFM-1013</a><br>
-                              <span class="post-date"><i class="fa fa-clock-o" style="margin-top: 22px;"></i> 02/28/2019</span>
-                              <a href="https://blog.ethereum.org/2019/02/22/ethereum-constantinople-st-petersburg-upgrade-announcement/" target="_blank" class="read-more" style="margin-top: 22px;">read more</a>
-                           </div>
-                        </div>
-                        <div class="post-slide">
-                           <div class="post-img">
-                              <img src="../img/general/byzantin.png" alt="">
-                              <a href="https://eips.ethereum.org/EIPS/eip-609" target="_blank"  class="over-layer"><i class="fa fa-link"></i></a>
-                           </div>
-                           <div class="post-content">
-                              <h3 class="post-title">
-                                 <p class="card-title2">Byzantium
-                                 <span class="post-digit"><i class=""></i>4370000</span>
-                              </h3>
-                              <a href="https://github.com/ethereum/EIPs/pull/206" target="_blank" class="mr-10 black-color">EIP-140</a>
-                              <a href="https://github.com/ethereum/EIPs/pull/658" target="_blank" class="mr-10 black-color">EIP-658</a>
-                              <a href="https://github.com/ethereum/EIPs/pull/213" target="_blank" class="mr-10 black-color">EIP-196</a>
-                              <a href="https://github.com/ethereum/EIPs/pull/212" target="_blank" class="mr-10 black-color">EIP-197</a><br>
-                              <a href="https://github.com/ethereum/EIPs/pull/198" target="_blank" class="mr-10 black-color">EIP-198</a>
-                              <a href="https://github.com/ethereum/EIPs/pull/211" target="_blank" class="mr-10 black-color">EIP-211</a>
-                              <a href="https://github.com/ethereum/EIPs/pull/214" target="_blank" class="mr-10 black-color">EIP-214</a>
-                              <a href="https://github.com/ethereum/EIPs/issues/100" target="_blank" class="mr-10 black-color">EIP-100</a><br>
-                              <a href="https://github.com/ethereum/EIPs/pull/669" target="_blank" class="mr-10 black-color">EIP-649</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-609" target="_blank" class="mr-10 black-color">HFM-609</a><br>
-                              <span class="post-date"><i class="fa fa-clock-o" style="margin-top: 22px;"></i> 10/16/2017</span>
-                              <a href="https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/" target="_blank" class="read-more" style="margin-top: 22px;">read more</a>
-                           </div>
-                        </div>
-                        <div class="post-slide">
-                           <div class="post-img">
-                              <img src="../img/general/dragon.png" alt="">
-                              <a href="https://eips.ethereum.org/EIPS/eip-607" target="_blank" class="over-layer"><i class="fa fa-link"></i></a>
-                           </div>
-                           <div class="post-content">
-                              <h3 class="post-title">
-                                 <p class="card-title2">Spurious Dragon
-                                 <span class="post-digit"><i class=""></i>2675000</span>
-                              </h3>
-                              <a href="https://github.com/ethereum/EIPs/issues/155" target="_blank" class="mr-10 black-color">EIP-155</a>
-                              <a href="https://github.com/ethereum/EIPs/issues/160" target="_blank" class="mr-10 black-color">EIP-160</a>
-                              <a href="https://github.com/ethereum/EIPs/issues/161" target="_blank" class="mr-10 black-color">EIP-161</a>
-                              <a href="https://github.com/ethereum/EIPs/issues/170" target="_blank" class="mr-10 black-color">EIP-170</a><br>
-                              <a href="https://eips.ethereum.org/EIPS/eip-607" target="_blank" class="mr-10 black-color">HFM-607</a><br>
-                              <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 11/22/2016</span>
-                              <a href="https://blog.ethereum.org/2016/11/18/hard-fork-no-4-spurious-dragon/" target="_blank" class="read-more mt-48">read more</a>
-                           </div>
-                        </div>
-                        <div class="post-slide">
-                           <div class="post-img">
-                              <img src="../img/general/tangerine.png" alt="">
-                              <a href="https://eips.ethereum.org/EIPS/eip-608" target="_blank" class="over-layer"><i class="fa fa-link"></i></a>
-                           </div>
-                           <div class="post-content">
-                              <h3 class="post-title">
-                                 <p class="card-title2">Tangerine Whistle
-                                 <span class="post-digit"><i class=""></i>2463000</span>
-                              </h3>
-                              <a href="https://eips.ethereum.org/EIPS/eip-150" target="_blank" class="mr-10 black-color">EIP-150</a><br>
-                              <a href="https://eips.ethereum.org/EIPS/eip-608" target="_blank" class="mr-10 black-color">HFM-608</a><br>
-                              <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 10/18/2016</span>
-                              <a href="https://blog.ethereum.org/2016/10/13/announcement-imminent-hard-fork-eip150-gas-cost-changes/" target="_blank" class="read-more mt-48">read more</a>
-                           </div>
-                        </div>
-                        <div class="post-slide">
-                           <div class="post-img">
-                              <img src="../img/general/dao.png" alt="">
-                              <a href="https://eips.ethereum.org/EIPS/eip-779" target="_blank" class="over-layer"><i class="fa fa-link"></i></a>
-                           </div>
-                           <div class="post-content">
-                              <h3 class="post-title">
-                                 <p class="card-title2">Dao Fork
-                                 <span class="post-digit"><i class=""></i>1920000</span>
-                              </h3>
-                              <a href="https://eips.ethereum.org/EIPS/eip-779" target="_blank" class="mr-10 black-color">HFM-779</a><br><br>
-                              <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 07/20/2016</span>
-                              <a href="https://blog.ethereum.org/2016/07/15/to-fork-or-not-to-fork/" target="_blank" class="read-more mt-48">read more</a>
-                           </div>
-                        </div>
-                        <div class="post-slide">
-                           <div class="post-img">
-                              <img src="../img/general/dao.png" alt="">
-                              <a href="https://blog.ethereum.org/2016/06/24/dao-wars-youre-voice-soft-fork-dilemma/" target="_blank" class="over-layer"><i class="fa fa-link"></i></a>
-                           </div>
-                           <div class="post-content">
-                              <h3 class="post-title">
-                                 <p class="card-title2">Dao Wars
-                                 <span class="post-digit"><i class=""></i>Aborted</span><br>
-                              </h3>
-                              <a href="https://eips.ethereum.org/EIPS/eip-779" target="_blank" class="mr-10 black-color"></a><br><br>
-                              <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 06/24/2016</span>
-                              <a href="https://blog.ethereum.org/2016/06/24/dao-wars-youre-voice-soft-fork-dilemma/" target="_blank" class="read-more mt-48">read more</a>
-                              
-                           </div>
-                        </div>
-                        <div class="post-slide">
-                           <div class="post-img">
-                              <img src="../img/general/homestead.png" alt="">
-                              <a href="https://eips.ethereum.org/EIPS/eip-606" target="_blank" class="over-layer"><i class="fa fa-link"></i></a>
-                           </div>
-                           <div class="post-content">
-                              <h3 class="post-title">
-                                 <p class="card-title2">Homestead
-                                 <span class="post-digit"><i class=""></i>1150000</span>
-                              </h3>
-                              <a href="https://eips.ethereum.org/EIPS/eip-2" target="_blank" class="mr-10 black-color">EIP-2</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-7" target="_blank" class="mr-10 black-color">EIP-7</a>
-                              <a href="https://eips.ethereum.org/EIPS/eip-8" target="_blank" class="mr-10 black-color">EIP-8</a><br>
-                              <a href="https://eips.ethereum.org/EIPS/eip-606" target="_blank" class="mr-10 black-color">HFM-606</a><br>
-                              <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 03/14/2016</span>
-                              <a href="https://blog.ethereum.org/2016/02/29/homestead-release/" target="_blank" class="read-more mt-48">read more</a>
-                           </div>
-                        </div>
-                        <div class="post-slide">
-                           <div class="post-img">
-                              <img src="../img/general/frontier.png" alt="">
-                              <a href="https://blog.ethereum.org/2015/08/04/the-thawing-frontier/" target="_blank" class="over-layer"><i class="fa fa-link"></i></a>
-                           </div>
-                           <div class="post-content">
-                              <h3 class="post-title">
-                                 <p class="card-title2">Frontier Thawing
-                                 <span class="post-digit"><i class=""></i>200000</span>
-                              </h3>
-                              <span class="post-date"><i class="fa fa-clock-o" style="margin-top: 103px;"></i> 09/07/2015</span>
-                              <a href="https://blog.ethereum.org/2015/08/04/the-thawing-frontier/" target="_blank" class="read-more" style="margin-top: 103px;">read more</a>
-                           </div>
-                        </div>
-                        <div class="post-slide">
-                           <div class="post-img">
-                              <img src="../img/general/frontier.png" alt="">
-                              <a href="https://blog.ethereum.org/2015/07/22/frontier-is-coming-what-to-expect-and-how-to-prepare/" target="_blank" class="over-layer"><i class="fa fa-link"></i></a>
-                           </div>
-                           <div class="post-content">
-                              <h3 class="post-title">
-                                 <p class="card-title2">Frontier
-                                 <span class="post-digit"><i class=""></i>1</span>
-                              </h3>
-                              <span class="post-date"><i class="fa fa-clock-o" style="margin-top: 103px;"></i> 07/30/2015</span>
-                              <a href="https://blog.ethereum.org/2015/07/22/frontier-is-coming-what-to-expect-and-how-to-prepare/" target="_blank" class="read-more" style="margin-top: 103px;">read more</a>
-                           </div>
-                        </div>
-                     </div>
+               <div class="header__menu__wrap overflow-hidden">
+                  <div class="header__menu js-header-menu">
+                     <button type="button" class="nav-button-open js-nav-open">
+                        <i class="icon" data-feather="menu"></i>
+                     </button>
                   </div>
                </div>
             </div>
-
-            <section id="section-text" class=" ">
-               <div class="container">
-                  <div class="row flex-start- mt-48">
-                     <div class="col-12 mobile-col-width-100">
-                        <h2 class="fw-900 mt-24 container"><a class="dashed-underline" href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md">Arrow Glacier</a></h2>
-                        <h5 class="fw-300 mt-24 container">
-                           This is a planned upgrade to delay the difficulty bomb to be noticeable in Summer 2022.
-                        </h5>
-
-                        <h5 class="fw-300 mt-24 container">
-                           <ul style="list-style-position: inside;">
-                              <li><strong>Mainnet upgrade date</strong> - Wednesday, 8th of December</li>
-                              <li><strong>Planned for epoch</strong> - 13773000</li>
-                              <li><a href="https://eips.ethereum.org/EIPS/eip-4345" rel="nofollow" target="_blank" class="dashed-underline">EIP-4345: Difficulty Bomb Delay to June 2022</a></li>
-                              <li><strong>ECH explainer</strong> - <a href="https://medium.com/ethereum-cat-herders/ethereum-arrow-glacier-upgrade-e8d20fa4c002" rel="nofollow" target="_blank" class="dashed-underline">Ethereum Arrow Glacier Upgrade</a></li>
-                              <li><strong>Ethereum Foundation's </strong><a href="https://medium.com/ethereum-cat-herders/ethereum-arrow-glacier-upgrade-e8d20fa4c002" rel="nofollow" target="_blank" class="dashed-underline">Arrow Glacier Upgrade Announcement</a></li>
-                           </ul>
-                        </h5>
-
-                        <h5 class="fw-300 mt-24 container">
-                           To understand how the “Difficulty Bomb” works in the Ethereum blockchain, please follow the recording of <a href="https://youtu.be/QwCPrw-4d98" target="_blank" class="dashed-underline">PEEPanEIP #39: Difficulty bomb & EIP-3554 with James Hancock.</a>
-                        </h5>
-                     </div>
-                  </div>
-               </div>
-            </section>
-
-            <section id="section-text" class="layout-pt-sm">
-               <div class="container">
-                  <div class="row  layout-pb-sm">
-                     <div class="col-sm-6 d-lg-block d-xl-block wow fadeInRight" data-wow-delay="0s">
-                        <h3 class="fw-500 container">
-                           Client Specs
-                        </h3>
-                        <h5 class="fw-300 mt-24 container">
-
-                           <table class="ml24 mb50" role="table">
-                              <thead>
-                                 <tr>
-                                    <th style="width: 230px; background-color: #282828; color: white;padding-left: 10px; ">Client</th>
-                                    <th style="width: 110px;background-color: #282828; color: white; ">Version</th>
-                                    <th style="width: 170px;background-color: #282828; color: white;  ">Download Link</th>
-                                 </tr>
-                              </thead>
-                              
-                              <tbody>
-                                 <tr>
-                                    <td style="padding-left: 10px;">go-ethereum (geth)</td>
-                                    <td>1.10.12</td>
-                                    <td><a href="https://github.com/ethereum/go-ethereum/releases/tag/v1.10.12" target="_blank" class="dashed-underline">Download</a></td>
-                                 </tr>
-                                 <tr>
-                                    <td style="padding-left: 10px; background-color: #e9e9e9;">Nethermind</td>
-                                    <td style="background-color: #e9e9e9;">1.11.7</td>
-                                    <td style="background-color: #e9e9e9;"><a href="https://github.com/NethermindEth/nethermind/releases/tag/1.11.7" target="_blank" class="dashed-underline">Download</a></td>
-                                 </tr>
-                                 <tr>
-                                    <td style="padding-left: 10px;">Erigon</td>
-                                    <td>2021.11.01-alpha</td>
-                                    <td><a href="https://github.com/ledgerwatch/erigon/releases/tag/v2021.11.01" target="_blank" class="dashed-underline">Release</a></td>
-                                 </tr>
-                                 <tr>
-                                    <td style="padding-left: 10px; background-color: #e9e9e9;">Prysm</td>
-                                    <td style="background-color: #e9e9e9;">v2.0.0</td>
-                                    <td style="background-color: #e9e9e9;"><a href="https://github.com/prysmaticlabs/prysm/releases/tag/v2.0.0" target="_blank" class="dashed-underline">Download</a></td>
-                                 </tr>
-                                 <tr>
-                                    <td style="padding-left: 10px;">Besu</td>
-                                    <td>21.10.0</td>
-                                    <td><a href="https://github.com/hyperledger/besu/releases/tag/21.10.0" target="_blank" class="dashed-underline">Download</a></td>
-                                 </tr>
-                                 <tr>
-                                    <td style="padding-left: 10px;">EthereumJS VM</td>
-                                    <td>5.6.0</td>
-                                    <td><a href="https://github.com/ethereumjs/ethereumjs-monorepo/releases/tag/%40ethereumjs%2Fvm%405.6.0" target="_blank" class="dashed-underline">Download</a></td>
-                                 </tr>
-                              </tbody>
-                           </table>
-
-                        </h5>
-                     </div>
-                     <div class="col-sm-6">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/QwCPrw-4d98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="spacer-half"></div>
-                     </div>
-                  </div>
-                  <div class="row align-items-center">
-                     <div class="col-md-6 offset-md-3">
-                        <div class="text-center">
-                           <img class="relative" src="img/general/paws.png" alt="" />
-                           <div class="spacer-20"></div>
+            <!-- header__bar end -->
+            <!-- nav start -->
+            <nav class="nav js-nav">
+               <div class="nav__inner js-nav-inner">
+                  <div class="nav__bg js-nav-bg">
+                     <div class="🐱">
+                        <div class="🐱b"></div>
+                        <div class="🐱h">
+                           <div class="🐱n"></div>
+                           <div class="🐱e 🐱e--r"></div>
+                           <div class="🐱e 🐱e--l"></div>
+                           <div class="🐱s">
+                              <div class="🐱s__i"></div>
+                              <div class="🐱s__i"></div>
+                              <div class="🐱s__i"></div>
+                           </div>
+                           <div class="🐱s 🐱s--r">
+                              <div class="🐱s__i"></div>
+                              <div class="🐱s__i"></div>
+                              <div class="🐱s__i"></div>
+                           </div>
+                           <div class="🐱ea 🐱ea--r"></div>
+                           <div class="🐱ea 🐱ea--l"></div>
                         </div>
                      </div>
                   </div>
-               </div>
-            </section>
-
-                     
-                    
-
-            <section id="section-text" class="layout-pb-xl">
-               <div class="container">
-                  <h3 class="fw-500 mt-20 container">
-                     In the section below you can find more information on past and upcoming network upgrades.
-                  </h3>
-
-                  <div class="row flex-start- mt-12">
-                     <div class="col-12 mobile-col-width-100">
-                        <h2 class="fw-900 mt-24 container">Altair Upgrade</h2>
-                        <h5 class="fw-300 mt-24 container">
-                           This is the first planned network upgrade for the Beacon chain (Ethereum 2.0). It is already activated on the Prater testnet. Follow the <a href="https://prater.consensus-monitor.stokes.io/" target="_blank" class="dashed-underline">consensus monitor</a> shared by Alex Stokes.
-                        </h5>
-                        <h5 class="fw-300 mt-24 container">
-                           <ul style="list-style-position: inside;">
-                              <li><strong>Mainnet upgrade date</strong> - Wednesday, 27th of October</li>
-                              <li><strong>Planned for epoch</strong> - 74240</li>
-                              <li><strong>Expected time</strong> -  10:56:23 UTC</li>
-                              <li>Ethereum Foundation's <a href="https://blog.ethereum.org/2021/10/05/altair-announcement/" rel="nofollow" target="_blank" class="dashed-underline">Altair Mainnet Announcement</a></li>
-                           </ul>
-                        </h5>
-                        <h3 class="fw-500 mt-48 container">
-                           Resources
-                        </h3>
-                        <h5 class="fw-300 mt-24 container">
-                           <a href="https://www.youtube.com/playlist?list=PL4cwHXAawZxoEw29YmqJtNoFaENUUAREn" target="_blank" class="dashed-underline">PEEPanEIP</a> recordings
-                        </h5>
-                        <h5 class="fw-300 mt-24 container">
-                           <ul style="list-style-position: inside;"></ul>
-                              <li><a href="https://youtu.be/iaAEGs1DMgQ" rel="nofollow target="_blank" class="dashed-underline">Altair Beacon chain upgrade</a> with Vitalik and Danny</li>
-                              <li><a href="https://youtu.be/KdhHJa2SEwY" rel="nofollow target="_blank" class="dashed-underline">Altair - Accounting reform</a> with Alex Stokes</li>
-                              <li><a href="https://youtu.be/Kv643dgRmMI" rel="nofollow target="_blank" class="dashed-underline">Altair in Teku</a> with Adrian Sutton</li>
-                              <li><a href="https://youtu.be/92BeeDr1Nhw" rel="nofollow target="_blank" class="dashed-underline">Altair upgrade &amp; roadmap (Prysm)</a> with Raul Jordan &amp; Terence</li>
-                              <li><a href="https://youtu.be/3xD2UyazRTE" rel="nofollow target="_blank" class="dashed-underline">Beacon chain metrics &amp; benchmarking</a> with Parithosh &amp; Leonardo</li>
-                              <li><a href="https://youtu.be/FlFKZR_ofSo" rel="nofollow target="_blank" class="dashed-underline">A Brief History of Ethereum's Future</a> with Ben Edgington</li>
+                  <div class="nav__container">
+                     <div class="nav__header">
+                        <button type="button" class="nav-button-back js-nav-back">
+                           <i class="icon" data-feather="arrow-left-circle"></i>
+                        </button>
+                        <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                           <i class="icon" data-feather="x"></i>
+                        </button>
+                     </div>
+                     <div class="nav__content">
+                        <div class="nav__content__left">
+                           <div class="navList__wrap">
+                              <ul class="navList js-navList">
+                                 <li>
+                                    <a class="" href="https://www.ethereumcatherders.com/">
+                                       Home
+                                    </a>
+                                 </li>
+                                 <li class="menu-item-has-children">
+                                    <a>Activities</a>
+                                    <ul class="subnav-list">
+                                       <li>
+                                          <a href="#">Network Upgrades</a>
+                                       </li>
+                                       <li>
+                                          <a href="../the_merge/">The Merge</a>
+                                       </li>
+                                       <li>
+                                          <a href="../eip_resources/">EIP Resources</a>
+                                       </li>
+                                       <li>
+                                          <a href="../dev_meetings/">Meetings</a>
+                                       </li>
+                                       <li>
+                                          <a href="../surveys/" target="_blank">Surveys</a>
+                                       </li>
+                                    </ul>
+                                 </li>
+                                 <li>
+                                    <a class="active" href="../calendar/">
+                                       Calendar
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a class="active" href="../blog/">
+                                       Blog
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a class="active" href="../ech_youtube/">
+                                       ECH Youtube
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a class="active" href="../about/">
+                                       About Us
+                                    </a>
+                                 </li>
                               </ul>
-                        </h5>
-                        
-                        
-                     </div>
-                  </div>
-
-
-                  <div class="row flex-start- mt-48">
-
-
-                        <section id="section-text" class="">
-                           <div class="container">
-                              <div class="row align-items-center">
-                                 
-                                 <div class="col-md-10">
-                                    <h5 class="fw-300 mt-24 container">
-                                       The network upgrade progress tracker helps with keeping track of improvement proposals in different phases of network upgrade. Clients' development and integration can be followed on the latest version of the <a href="https://github.com/ethereum/eth1.0-specs/tree/master/network-upgrades/client-integration-testnets" target="_blank" class="dashed-underline">developer's testnet</a>. Read <a href="https://medium.com/ethereum-cat-herders/shedding-light-on-the-ethereum-network-upgrade-process-4c6186ed442c" target="_blank" class="dashed-underline">Shedding light on the Ethereum Network Upgrade Process</a> for more information
-                                    </h5>
-                                    <div class="spacer-half"></div>
-                                 </div>
-                                 <div class="col-md-2">
-                                    <span><img class="float-r cat-none" src="../img/general/cat-white.png"/></span>
-                                 </div>
-                                 <div class="col-md-12 ml-12">
-                                    <a href="https://github.com/ethereum/eth1.0-specs/projects/1"  target="_blank" class="button -md -black two mt-24">
-                                       Network Upgrade <br> <span style="margin-top: 6px;"> Process Tracker</span>
-                                    </a>    
+                           </div>
+                        </div>
+                        <div class="nav__content__right">
+                           <div class="nav__info">
+                              <div class="nav__info__item js-navInfo-item">
+                                 <h5 class="text-sm tracking-none fw-500">
+                                    Follow us
+                                 </h5>
+                                 <div class="nav__info__content text-lg text-white mt-16">
+                                    <a href="https://twitter.com/EthCatHerders">Twitter</a>
+                                    <a href="https://github.com/ethereum-cat-herders">Github</a>
+                                    <a href="https://www.youtube.com/channel/UCD9iiIwTRtLDYcEWONs2Q3A">Youtube</a>
+                                    <a href="https://www.linkedin.com/company/ethereum-cat-herders/">Linkedin</a>
                                  </div>
                               </div>
-                              <h3 class="fw-500 mt-48 container">
-                                 How ECH support network upgrade.
-                              </h3>
-                              <h5 class="fw-300 mt-24 container">
-                                 <ul style="list-style-position: outside;"></ul>
-                                    <li>Organising proposal & upgrades specific community calls</li>
-                                    <li>Documenting client Meetings</li>
-                                    <li>Socialize proposals and build educational resources through the <a href="https://youtube.com/playlist?list=PL4cwHXAawZxqu0PKKyMzG_3BJV_xZTi1F" target="_blank" class="dashed-underline">Peep an EIP video series</a></li>
-                                    <li>Outreaching Ethereum projects & infrastructure providers to weigh-in community sentiments for improvement proposals</li>
-                                    <li>Process improvement and communication</li>
-                                    </ul>
-                              </h5>
-                              
-                              
-                           </div>
-                        </section>
-                     
-                  </div>
-               </div>
-            </section>
-            
-            <!-- footer -->
-            <!-- footer start -->
-            <footer class="footer -type-1 bg-dark-1 m-100">
-               <!-- container start -->
-               <div class="container">
-                  <div class="footer__top">
-                     <!-- row start -->
-                     <div class="row y-gap-48 justify-content-between container">
-                        <div class="col-lg-6">
-                           <p href="https://ethereumcatherders.com/" class="footer__logo text-white font-brew">
-                              Ethereum Cat Herders
-                           </p>
-                           <h5 class ="text-white fw-300 mt-16 col-lg-9" style="padding-left:0px;" >
-                              Decentralized project management for the Ethereum Network
-                           </h5>
-                           <img class="relative mt-32" src="../img/general/paws.png" alt="" />
-                        </div>
-                        <div class="col-lg-auto col-sm-4">
-                           <h4 class="text-xl fw-500 text-white">
-                              Links
-                           </h4>
-                           <div class="footer__content text-base text-light mt-16 sm:mt-12">
-                              <div><a href="https://ethereumcatherders.com/" class="button -underline">Home</a></div>
-                              <div><a href="../network_upgrades/" class="button -underline mt-4">Activities</a></div>
-                              <div><a href="../calendar/" class="button -underline mt-4">Calendar</a></div>
-                              <div><a href="../blog/" class="button -underline mt-4">Blog</a></div>
-                              <div><a href="../ech_youtube/" class="button -underline mt-4">ECH Youtube</a></div>
-                              <div><a href="../about/" class="button -underline mt-4">About Us</a></div>
-                              <div><a href="../branding/"  class="button -underline mt-4">ECH Branding Assets</a></div>
-                           </div>
-                        </div>
-                        <div class="col-lg-auto col-auto">
-                           <h4 class="text-xl fw-500 text-white">
-                              Follow us
-                           </h4>
-                           <div class="social -bordered mt-16 sm:mt-12">
-                              <a class="social__item text-white border-light" href="https://twitter.com/EthCatHerders">
-                              <i class="fa fa-twitter"></i>
-                              </a>
-                              <a class="social__item text-white border-light" href="https://github.com/ethereum-cat-herders">
-                              <i class="fa fa-github"></i>
-                              </a>
-                              <a class="social__item text-white border-light" href="https://www.youtube.com/channel/UCD9iiIwTRtLDYcEWONs2Q3A">
-                              <i class="fa fa-youtube-play"></i>
-                              <a class="social__item text-white border-light" href="https://www.linkedin.com/company/ethereum-cat-herders/">
-                              <i class="fa fa-linkedin"></i>
-                              </a>
-                           </div>
-                           <h4 class="text-xl fw-500 text-white mt-24">
-                              Email us
-                           </h4>
-                           <div class="footer__content text-base text-light mt-16 sm:mt-12">
-                              <div><a href='mailto:support@ethereumcatherders.com' class="button -underline">support@ethereumcatherders.com</a></div>
-                           </div>
-                           <h4 class="text-xl fw-500 text-white mt-24">    
-                           </h4>
-                           <div class="footer__content text-base text-light mt-16 sm:mt-12">
-                              <div><p style="float: right;
-                                 margin-top: 35px;">v1.6.0</p></div>
+                              <div class="nav__info__item js-navInfo-item">
+                                 <h5 class="text-sm tracking-none fw-500">
+                                    Email us
+                                 </h5>
+                                 <div class="nav__info__content text-lg text-white mt-16">
+                                    <a href='mailto:support@ethereumcatherders.com'>support@ethereumcatherders.com</a>
+                                 </div>
+                              </div>
                            </div>
                         </div>
                      </div>
-                     <!-- row end -->
                   </div>
                </div>
-               <!-- container end -->
-            </footer>
-            <!-- footer end -->
-         </main>
-      </div>
-      <!-- partial -->
-      <script src='../js/jquery-1.12.0.min.js'></script>
-      <script src='../js/owl.carousel.min.js'></script>
-      <script src='../js/script4.js'></script>
-      <script src='../js/bootstrap.min.js'></script>    
-      <script src="../js/script.js"></script>
-      <script src="../js/vendors.js"></script>
-      <script src="../js/main.js"></script>
-   </body>
+            </nav>
+            <!-- nav end -->
+         </header>
+         <!-- header end -->
+         <section id="section-text" class="layout-pt-lg">
+            <div class="container">
+               <div class="row align-items-center">
+                  <img class="container " src="../img/general/line2.png" alt="">
+                  <div class="container col-12">
+                     <div class="text-center" style="padding-bottom: 20px;">
+                        <div class="spacer-20"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section>
+            <div class="aligncenter mobile-d-none js-header-menu-classic">
+               <ul class="navClassic-list js-navClassic-list">
+                  <li>
+                     <a class="font-rob-black" href="#">
+                        Network Upgrades
+                     </a>
+                  </li>
+                  <li>
+                     <a class="font-rob-darkgray" href="../the_merge/">
+                        The Merge
+                     </a>
+                  </li>
+                  <li>
+                     <a class="font-rob-darkgray" href="../eip_resources/">
+                        EIP Resources
+                     </a>
+                  </li>
+                  <li>
+                     <a class="font-rob-darkgray" href="../dev_meetings/">
+                        Meetings
+                     </a>
+                  </li>
+                  <li>
+                     <a class="font-rob-darkgray" href="../surveys/">
+                        Surveys
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <!-- section end -->
+         <section id="section-text" class="layout-pt-sm mobile-header-top-padding-0  ">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-12">
+                     <h1 class="fw-900 mt-24 container lh-h1">Network Upgrades</h1>
+                     <h5 class="fw-300 mt-24 container">
+                        Technical upgrades are made periodically to the Ethereum protocol. Upgrades typically comprise
+                        of <a href="https://eips.ethereum.org/core" target="_blank" class="dashed-underline">Core
+                           Ethereum Improvement Proposals (EIPs)</a> that have achieved consensus across the Ethereum
+                        clients & community.
+                     </h5>
+
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <div class="container">
+            <h1 class="fw-900 mt-80 container" style="margin-bottom: -60px; line-height: 30px;">Ethereum blockchain
+               upgrades</h1>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 ">
+                  <div id="news-slider" class="owl-carousel">
+                     <div class="post-slide">
+                        <div class="post-img">
+                           <img src="../img/general/arrowglacier.jpg" alt="">
+                           <a href="https://medium.com/ethereum-cat-herders/ethereum-arrow-glacier-upgrade-e8d20fa4c002"
+                              target="blank" class="over-layer"><i class="fa fa-link"></i></a>
+                        </div>
+                        <div class="post-content">
+                           <h3 class="post-title">
+                              <p class="card-title2">Arrow Glacier
+                                 <span class="post-digit"><i class=""></i>13773000</span>
+                           </h3>
+                           <a href="https://eips.ethereum.org/EIPS/eip-4345" target="_blank"
+                              class="mr-10 black-color">EIP-4345</a>
+
+                           <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md"
+                              target="_blank" class="mr-10 black-color"><br>Specification</a><br>
+                           <span class="post-date"><i class="fa fa-clock-o mt-48"></i> </span>
+                           <a href="https://blog.ethereum.org/2021/11/10/arrow-glacier-announcement/" target="_blank"
+                              class="read-more mt-48">read more</a>
+                        </div>
+                     </div>
+
+                     <div class="post-slide">
+                        <div class="post-img">
+                           <img src="../img/general/london.jpg" alt="">
+                           <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md"
+                              target="blank" class="over-layer"><i class="fa fa-link"></i></a>
+                        </div>
+                        <div class="post-content">
+                           <h3 class="post-title">
+                              <p class="card-title2">London
+                                 <span class="post-digit"><i class=""></i>12965000</span>
+                           </h3>
+                           <a href="https://eips.ethereum.org/EIPS/eip-1559" target="_blank"
+                              class="mr-10 black-color">EIP-1559</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-3198" target="_blank"
+                              class="mr-10 black-color">EIP-3198</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-3529" target="_blank"
+                              class="mr-10 black-color">EIP-3529</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-3541" target="_blank"
+                              class="mr-10 black-color">EIP-3541</a><br>
+                           <a href="https://eips.ethereum.org/EIPS/eip-3554" target="_blank"
+                              class="mr-10 black-color">EIP-3554</a>
+                           <a href="https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/mainnet-upgrades/london.md"
+                              target="_blank" class="mr-10 black-color">Specification</a><br>
+                           <span class="post-date"><i class="fa fa-clock-o mt-48"></i> </span>
+                           <a href="https://medium.com/ethereum-cat-herders/london-upgrade-overview-8eccb0041b41"
+                              target="_blank" class="read-more mt-48">read more</a>
+                        </div>
+                     </div>
+
+                     <div class="post-slide">
+                        <div class="post-img">
+                           <img src="../img/general/berlin.png" alt="">
+                           <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md"
+                              target="blank" class="over-layer"><i class="fa fa-link"></i></a>
+                        </div>
+                        <div class="post-content">
+                           <h3 class="post-title">
+                              <p class="card-title2">Berlin
+                                 <span class="post-digit"><i class=""></i>12244000</span>
+                           </h3>
+                           <a href="https://eips.ethereum.org/EIPS/eip-2565" target="_blank"
+                              class="mr-10 black-color">EIP-2565</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-2929" target="_blank"
+                              class="mr-10 black-color">EIP-2929</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-2718" target="_blank"
+                              class="mr-10 black-color">EIP-2718</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-2930" target="_blank"
+                              class="mr-10 black-color">EIP-2930</a><br>
+                           <a href="https://eips.ethereum.org/EIPS/eip-2070" target="_blank"
+                              class="mr-10 black-color">HFM-2070</a>
+                           <a href="https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md"
+                              target="_blank" class="mr-10 black-color">Specification</a><br>
+                           <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 04/15/2021</span>
+                           <a href="https://blog.ethereum.org/2021/03/08/ethereum-berlin-upgrade-announcement/"
+                              target="_blank" class="read-more mt-48">read more</a>
+                        </div>
+                     </div>
+                     <div class="post-slide">
+                        <div class="post-img">
+                           <img src="../img/general/muir.png" alt="">
+                           <a href="https://eips.ethereum.org/EIPS/eip-2387" target="_blank" class="over-layer"><i
+                                 class="fa fa-link"></i></a>
+                        </div>
+                        <div class="post-content">
+                           <h3 class="post-title">
+                              <p class="card-title2">Muir Glacier
+                                 <span class="post-digit"><i class=""></i>9200000</span>
+                           </h3>
+                           <a href="https://eips.ethereum.org/EIPS/eip-2384" target="_blank"
+                              class="mr-10 black-color">EIP-2384</a><br>
+                           <a href="https://eips.ethereum.org/EIPS/eip-2387" target="_blank"
+                              class="mr-10 black-color">HFM-2387</a><br>
+                           <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 01/02/2020</span>
+                           <a href="https://blog.ethereum.org/2019/12/23/ethereum-muir-glacier-upgrade-announcement/"
+                              target="_blank" class="read-more mt-48">read more</a>
+                        </div>
+                     </div>
+                     <div class="post-slide">
+                        <div class="post-img">
+                           <img src="../img/general/instanbul.png" alt="">
+                           <a href="https://eips.ethereum.org/EIPS/eip-1679" target="_blank" class="over-layer"><i
+                                 class="fa fa-link"></i></a>
+                        </div>
+                        <div class="post-content">
+                           <h3 class="post-title">
+                              <p class="card-title2">Istanbul
+                                 <span class="post-digit"><i class=""></i>9069000</span>
+                           </h3>
+                           <a href="https://eips.ethereum.org/EIPS/eip-152" target="_blank" class="mr-10 black-color">
+                              EIP-152</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-1108" target="_blank"
+                              class="mr-10 black-color">EIP-1108</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-1344" target="_blank"
+                              class="mr-10 black-color">EIP-1344</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-1884" target="_blank"
+                              class="mr-10 black-color">EIP-1884</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-2028" target="_blank"
+                              class="mr-10 black-color">EIP-2028</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-2200" target="_blank"
+                              class="mr-10 black-color">EIP-2200</a><br>
+                           <a href="https://eips.ethereum.org/EIPS/eip-1679" target="_blank"
+                              class="mr-10 black-color">HFM-1679</a><br>
+                           <span class="post-date"><i class="fa fa-clock-o" style="margin-top: 22px;"></i>
+                              12/07/2019</span>
+                           <a href="https://blog.ethereum.org/2019/11/20/ethereum-istanbul-upgrade-announcement/"
+                              target="_blank" class="read-more" style="margin-top: 22px;">read more</a>
+                        </div>
+                     </div>
+                     <div class="post-slide">
+                        <div class="post-img">
+                           <img src="../img/general/saint.png" alt="">
+                           <a href="https://eips.ethereum.org/EIPS/eip-1716" target="_blank" class="over-layer"><i
+                                 class="fa fa-link"></i></a>
+                        </div>
+                        <div class="post-content">
+                           <h3 class="post-title">
+                              <p class="card-title2">St. Petersburg
+                                 <span class="post-digit"><i class=""></i>7280000</span>
+                           </h3>
+                           <a href="https://eips.ethereum.org/EIPS/eip-145" target="_blank"
+                              class="mr-10 black-color">EIP-145</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-1014" target="_blank"
+                              class="mr-10 black-color">EIP-1014</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-1052" target="_blank"
+                              class="mr-10 black-color">EIP-1052</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-1234" target="_blank"
+                              class="mr-10 black-color">EIP-1234</a><br>
+                           <a href="https://github.com/ethereum/EIPs/pull/1716/" target="_blank"
+                              class="mr-10 black-color">HFM-1716</a><br>
+                           <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 02/28/2019</span>
+                           <a href="https://blog.ethereum.org/2019/02/22/ethereum-constantinople-st-petersburg-upgrade-announcement/"
+                              target="_blank" class="read-more mt-48">read more</a>
+                        </div>
+                     </div>
+                     <div class="post-slide">
+                        <div class="post-img">
+                           <img src="../img/general/constant.png" alt="">
+                           <a href="https://eips.ethereum.org/EIPS/eip-1013" target="_blank" class="over-layer"><i
+                                 class="fa fa-link"></i></a>
+                        </div>
+                        <div class="post-content">
+                           <h3 class="post-title">
+                              <p class="card-title2">Constantinople
+                                 <span class="post-digit"><i class=""></i>7280000</span>
+                           </h3>
+                           <a href="https://eips.ethereum.org/EIPS/eip-145" target="_blank"
+                              class="mr-10 black-color">EIP-145</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-1014" target="_blank"
+                              class="mr-10 black-color">EIP-1014</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-1052" target="_blank"
+                              class="mr-10 black-color">EIP-1052</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-1234" target="_blank"
+                              class="mr-10 black-color">EIP-1234</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-1283" target="_blank"
+                              class="mr-10 black-color">EIP-1283</a><br>
+                           <a href="https://eips.ethereum.org/EIPS/eip-1013" target="_blank"
+                              class="mr-10 black-color">HFM-1013</a><br>
+                           <span class="post-date"><i class="fa fa-clock-o" style="margin-top: 22px;"></i>
+                              02/28/2019</span>
+                           <a href="https://blog.ethereum.org/2019/02/22/ethereum-constantinople-st-petersburg-upgrade-announcement/"
+                              target="_blank" class="read-more" style="margin-top: 22px;">read more</a>
+                        </div>
+                     </div>
+                     <div class="post-slide">
+                        <div class="post-img">
+                           <img src="../img/general/byzantin.png" alt="">
+                           <a href="https://eips.ethereum.org/EIPS/eip-609" target="_blank" class="over-layer"><i
+                                 class="fa fa-link"></i></a>
+                        </div>
+                        <div class="post-content">
+                           <h3 class="post-title">
+                              <p class="card-title2">Byzantium
+                                 <span class="post-digit"><i class=""></i>4370000</span>
+                           </h3>
+                           <a href="https://github.com/ethereum/EIPs/pull/206" target="_blank"
+                              class="mr-10 black-color">EIP-140</a>
+                           <a href="https://github.com/ethereum/EIPs/pull/658" target="_blank"
+                              class="mr-10 black-color">EIP-658</a>
+                           <a href="https://github.com/ethereum/EIPs/pull/213" target="_blank"
+                              class="mr-10 black-color">EIP-196</a>
+                           <a href="https://github.com/ethereum/EIPs/pull/212" target="_blank"
+                              class="mr-10 black-color">EIP-197</a><br>
+                           <a href="https://github.com/ethereum/EIPs/pull/198" target="_blank"
+                              class="mr-10 black-color">EIP-198</a>
+                           <a href="https://github.com/ethereum/EIPs/pull/211" target="_blank"
+                              class="mr-10 black-color">EIP-211</a>
+                           <a href="https://github.com/ethereum/EIPs/pull/214" target="_blank"
+                              class="mr-10 black-color">EIP-214</a>
+                           <a href="https://github.com/ethereum/EIPs/issues/100" target="_blank"
+                              class="mr-10 black-color">EIP-100</a><br>
+                           <a href="https://github.com/ethereum/EIPs/pull/669" target="_blank"
+                              class="mr-10 black-color">EIP-649</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-609" target="_blank"
+                              class="mr-10 black-color">HFM-609</a><br>
+                           <span class="post-date"><i class="fa fa-clock-o" style="margin-top: 22px;"></i>
+                              10/16/2017</span>
+                           <a href="https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/" target="_blank"
+                              class="read-more" style="margin-top: 22px;">read more</a>
+                        </div>
+                     </div>
+                     <div class="post-slide">
+                        <div class="post-img">
+                           <img src="../img/general/dragon.png" alt="">
+                           <a href="https://eips.ethereum.org/EIPS/eip-607" target="_blank" class="over-layer"><i
+                                 class="fa fa-link"></i></a>
+                        </div>
+                        <div class="post-content">
+                           <h3 class="post-title">
+                              <p class="card-title2">Spurious Dragon
+                                 <span class="post-digit"><i class=""></i>2675000</span>
+                           </h3>
+                           <a href="https://github.com/ethereum/EIPs/issues/155" target="_blank"
+                              class="mr-10 black-color">EIP-155</a>
+                           <a href="https://github.com/ethereum/EIPs/issues/160" target="_blank"
+                              class="mr-10 black-color">EIP-160</a>
+                           <a href="https://github.com/ethereum/EIPs/issues/161" target="_blank"
+                              class="mr-10 black-color">EIP-161</a>
+                           <a href="https://github.com/ethereum/EIPs/issues/170" target="_blank"
+                              class="mr-10 black-color">EIP-170</a><br>
+                           <a href="https://eips.ethereum.org/EIPS/eip-607" target="_blank"
+                              class="mr-10 black-color">HFM-607</a><br>
+                           <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 11/22/2016</span>
+                           <a href="https://blog.ethereum.org/2016/11/18/hard-fork-no-4-spurious-dragon/"
+                              target="_blank" class="read-more mt-48">read more</a>
+                        </div>
+                     </div>
+                     <div class="post-slide">
+                        <div class="post-img">
+                           <img src="../img/general/tangerine.png" alt="">
+                           <a href="https://eips.ethereum.org/EIPS/eip-608" target="_blank" class="over-layer"><i
+                                 class="fa fa-link"></i></a>
+                        </div>
+                        <div class="post-content">
+                           <h3 class="post-title">
+                              <p class="card-title2">Tangerine Whistle
+                                 <span class="post-digit"><i class=""></i>2463000</span>
+                           </h3>
+                           <a href="https://eips.ethereum.org/EIPS/eip-150" target="_blank"
+                              class="mr-10 black-color">EIP-150</a><br>
+                           <a href="https://eips.ethereum.org/EIPS/eip-608" target="_blank"
+                              class="mr-10 black-color">HFM-608</a><br>
+                           <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 10/18/2016</span>
+                           <a href="https://blog.ethereum.org/2016/10/13/announcement-imminent-hard-fork-eip150-gas-cost-changes/"
+                              target="_blank" class="read-more mt-48">read more</a>
+                        </div>
+                     </div>
+                     <div class="post-slide">
+                        <div class="post-img">
+                           <img src="../img/general/dao.png" alt="">
+                           <a href="https://eips.ethereum.org/EIPS/eip-779" target="_blank" class="over-layer"><i
+                                 class="fa fa-link"></i></a>
+                        </div>
+                        <div class="post-content">
+                           <h3 class="post-title">
+                              <p class="card-title2">Dao Fork
+                                 <span class="post-digit"><i class=""></i>1920000</span>
+                           </h3>
+                           <a href="https://eips.ethereum.org/EIPS/eip-779" target="_blank"
+                              class="mr-10 black-color">HFM-779</a><br><br>
+                           <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 07/20/2016</span>
+                           <a href="https://blog.ethereum.org/2016/07/15/to-fork-or-not-to-fork/" target="_blank"
+                              class="read-more mt-48">read more</a>
+                        </div>
+                     </div>
+                     <div class="post-slide">
+                        <div class="post-img">
+                           <img src="../img/general/dao.png" alt="">
+                           <a href="https://blog.ethereum.org/2016/06/24/dao-wars-youre-voice-soft-fork-dilemma/"
+                              target="_blank" class="over-layer"><i class="fa fa-link"></i></a>
+                        </div>
+                        <div class="post-content">
+                           <h3 class="post-title">
+                              <p class="card-title2">Dao Wars
+                                 <span class="post-digit"><i class=""></i>Aborted</span><br>
+                           </h3>
+                           <a href="https://eips.ethereum.org/EIPS/eip-779" target="_blank"
+                              class="mr-10 black-color"></a><br><br>
+                           <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 06/24/2016</span>
+                           <a href="https://blog.ethereum.org/2016/06/24/dao-wars-youre-voice-soft-fork-dilemma/"
+                              target="_blank" class="read-more mt-48">read more</a>
+
+                        </div>
+                     </div>
+                     <div class="post-slide">
+                        <div class="post-img">
+                           <img src="../img/general/homestead.png" alt="">
+                           <a href="https://eips.ethereum.org/EIPS/eip-606" target="_blank" class="over-layer"><i
+                                 class="fa fa-link"></i></a>
+                        </div>
+                        <div class="post-content">
+                           <h3 class="post-title">
+                              <p class="card-title2">Homestead
+                                 <span class="post-digit"><i class=""></i>1150000</span>
+                           </h3>
+                           <a href="https://eips.ethereum.org/EIPS/eip-2" target="_blank"
+                              class="mr-10 black-color">EIP-2</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-7" target="_blank"
+                              class="mr-10 black-color">EIP-7</a>
+                           <a href="https://eips.ethereum.org/EIPS/eip-8" target="_blank"
+                              class="mr-10 black-color">EIP-8</a><br>
+                           <a href="https://eips.ethereum.org/EIPS/eip-606" target="_blank"
+                              class="mr-10 black-color">HFM-606</a><br>
+                           <span class="post-date"><i class="fa fa-clock-o mt-48"></i> 03/14/2016</span>
+                           <a href="https://blog.ethereum.org/2016/02/29/homestead-release/" target="_blank"
+                              class="read-more mt-48">read more</a>
+                        </div>
+                     </div>
+                     <div class="post-slide">
+                        <div class="post-img">
+                           <img src="../img/general/frontier.png" alt="">
+                           <a href="https://blog.ethereum.org/2015/08/04/the-thawing-frontier/" target="_blank"
+                              class="over-layer"><i class="fa fa-link"></i></a>
+                        </div>
+                        <div class="post-content">
+                           <h3 class="post-title">
+                              <p class="card-title2">Frontier Thawing
+                                 <span class="post-digit"><i class=""></i>200000</span>
+                           </h3>
+                           <span class="post-date"><i class="fa fa-clock-o" style="margin-top: 103px;"></i>
+                              09/07/2015</span>
+                           <a href="https://blog.ethereum.org/2015/08/04/the-thawing-frontier/" target="_blank"
+                              class="read-more" style="margin-top: 103px;">read more</a>
+                        </div>
+                     </div>
+                     <div class="post-slide">
+                        <div class="post-img">
+                           <img src="../img/general/frontier.png" alt="">
+                           <a href="https://blog.ethereum.org/2015/07/22/frontier-is-coming-what-to-expect-and-how-to-prepare/"
+                              target="_blank" class="over-layer"><i class="fa fa-link"></i></a>
+                        </div>
+                        <div class="post-content">
+                           <h3 class="post-title">
+                              <p class="card-title2">Frontier
+                                 <span class="post-digit"><i class=""></i>1</span>
+                           </h3>
+                           <span class="post-date"><i class="fa fa-clock-o" style="margin-top: 103px;"></i>
+                              07/30/2015</span>
+                           <a href="https://blog.ethereum.org/2015/07/22/frontier-is-coming-what-to-expect-and-how-to-prepare/"
+                              target="_blank" class="read-more" style="margin-top: 103px;">read more</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <section id="section-text" class=" ">
+            <div class="container">
+               <div class="row flex-start- mt-48">
+                  <div class="col-12 mobile-col-width-100">
+                     <h2 class="fw-900 mt-24 container"><a class="dashed-underline"
+                           href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md">Arrow
+                           Glacier</a></h2>
+                     <h5 class="fw-300 mt-24 container">
+                        This is a planned upgrade to delay the difficulty bomb to be noticeable in Summer 2022.
+                     </h5>
+
+                     <h5 class="fw-300 mt-24 container">
+                        <ul style="list-style-position: inside;">
+                           <li><strong>Mainnet upgrade date</strong> - Wednesday, 8th of December</li>
+                           <li><strong>Planned for epoch</strong> - 13773000</li>
+                           <li><a href="https://eips.ethereum.org/EIPS/eip-4345" rel="nofollow" target="_blank"
+                                 class="dashed-underline">EIP-4345: Difficulty Bomb Delay to June 2022</a></li>
+                           <li><strong>ECH explainer</strong> - <a
+                                 href="https://medium.com/ethereum-cat-herders/ethereum-arrow-glacier-upgrade-e8d20fa4c002"
+                                 rel="nofollow" target="_blank" class="dashed-underline">Ethereum Arrow Glacier
+                                 Upgrade</a></li>
+                           <li><strong>Ethereum Foundation's </strong><a
+                                 href="https://medium.com/ethereum-cat-herders/ethereum-arrow-glacier-upgrade-e8d20fa4c002"
+                                 rel="nofollow" target="_blank" class="dashed-underline">Arrow Glacier Upgrade
+                                 Announcement</a></li>
+                        </ul>
+                     </h5>
+
+                     <h5 class="fw-300 mt-24 container">
+                        To understand how the “Difficulty Bomb” works in the Ethereum blockchain, please follow the
+                        recording of <a href="https://youtu.be/QwCPrw-4d98" target="_blank"
+                           class="dashed-underline">PEEPanEIP #39: Difficulty bomb & EIP-3554 with James Hancock.</a>
+                     </h5>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section id="section-text" class="layout-pt-sm">
+            <div class="container">
+               <div class="row  layout-pb-sm">
+                  <div class="col-sm-6 d-lg-block d-xl-block wow fadeInRight" data-wow-delay="0s">
+                     <h3 class="fw-500 container">
+                        Client Specs
+                     </h3>
+                     <h5 class="fw-300 mt-24 container">
+
+                        <table class="ml24 mb50" role="table">
+                           <thead>
+                              <tr>
+                                 <th style="width: 230px; background-color: #282828; color: white;padding-left: 10px; ">
+                                    Client</th>
+                                 <th style="width: 110px;background-color: #282828; color: white; ">Version</th>
+                                 <th style="width: 170px;background-color: #282828; color: white;  ">Download Link</th>
+                              </tr>
+                           </thead>
+
+                           <tbody>
+                              <tr>
+                                 <td style="padding-left: 10px;">go-ethereum (geth)</td>
+                                 <td>1.10.12</td>
+                                 <td><a href="https://github.com/ethereum/go-ethereum/releases/tag/v1.10.12"
+                                       target="_blank" class="dashed-underline">Download</a></td>
+                              </tr>
+                              <tr>
+                                 <td style="padding-left: 10px; background-color: #e9e9e9;">Nethermind</td>
+                                 <td style="background-color: #e9e9e9;">1.11.7</td>
+                                 <td style="background-color: #e9e9e9;"><a
+                                       href="https://github.com/NethermindEth/nethermind/releases/tag/1.11.7"
+                                       target="_blank" class="dashed-underline">Download</a></td>
+                              </tr>
+                              <tr>
+                                 <td style="padding-left: 10px;">Erigon</td>
+                                 <td>2021.11.01-alpha</td>
+                                 <td><a href="https://github.com/ledgerwatch/erigon/releases/tag/v2021.11.01"
+                                       target="_blank" class="dashed-underline">Release</a></td>
+                              </tr>
+                              <tr>
+                                 <td style="padding-left: 10px; background-color: #e9e9e9;">Prysm</td>
+                                 <td style="background-color: #e9e9e9;">v2.0.0</td>
+                                 <td style="background-color: #e9e9e9;"><a
+                                       href="https://github.com/prysmaticlabs/prysm/releases/tag/v2.0.0" target="_blank"
+                                       class="dashed-underline">Download</a></td>
+                              </tr>
+                              <tr>
+                                 <td style="padding-left: 10px;">Besu</td>
+                                 <td>21.10.0</td>
+                                 <td><a href="https://github.com/hyperledger/besu/releases/tag/21.10.0" target="_blank"
+                                       class="dashed-underline">Download</a></td>
+                              </tr>
+                              <tr>
+                                 <td style="padding-left: 10px;">EthereumJS VM</td>
+                                 <td>5.6.0</td>
+                                 <td><a href="https://github.com/ethereumjs/ethereumjs-monorepo/releases/tag/%40ethereumjs%2Fvm%405.6.0"
+                                       target="_blank" class="dashed-underline">Download</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+
+                     </h5>
+                  </div>
+                  <div class="col-sm-6">
+                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/QwCPrw-4d98"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                     <div class="spacer-half"></div>
+                  </div>
+               </div>
+               <div class="row align-items-center">
+                  <div class="col-md-6 offset-md-3">
+                     <div class="text-center">
+                        <img class="relative" src="img/general/paws.png" alt="" />
+                        <div class="spacer-20"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+
+
+
+         <section id="section-text" class="layout-pb-xl">
+            <div class="container">
+               <h3 class="fw-500 mt-20 container">
+                  In the section below you can find more information on past and upcoming network upgrades.
+               </h3>
+
+               <div class="row flex-start- mt-12">
+                  <div class="col-12 mobile-col-width-100">
+                     <h2 class="fw-900 mt-24 container">Altair Upgrade</h2>
+                     <h5 class="fw-300 mt-24 container">
+                        This is the first planned network upgrade for the Beacon chain (Ethereum 2.0). It is already
+                        activated on the Prater testnet. Follow the <a
+                           href="https://prater.consensus-monitor.stokes.io/" target="_blank"
+                           class="dashed-underline">consensus monitor</a> shared by Alex Stokes.
+                     </h5>
+                     <h5 class="fw-300 mt-24 container">
+                        <ul style="list-style-position: inside;">
+                           <li><strong>Mainnet upgrade date</strong> - Wednesday, 27th of October</li>
+                           <li><strong>Planned for epoch</strong> - 74240</li>
+                           <li><strong>Expected time</strong> - 10:56:23 UTC</li>
+                           <li>Ethereum Foundation's <a href="https://blog.ethereum.org/2021/10/05/altair-announcement/"
+                                 rel="nofollow" target="_blank" class="dashed-underline">Altair Mainnet Announcement</a>
+                           </li>
+                        </ul>
+                     </h5>
+                     <h3 class="fw-500 mt-48 container">
+                        Resources
+                     </h3>
+                     <h5 class="fw-300 mt-24 container">
+                        <a href="https://www.youtube.com/playlist?list=PL4cwHXAawZxoEw29YmqJtNoFaENUUAREn"
+                           target="_blank" class="dashed-underline">PEEPanEIP</a> recordings
+                     </h5>
+                     <h5 class="fw-300 mt-24 container">
+                        <ul style="list-style-position: inside;"></ul>
+                        <li><a href="https://youtu.be/iaAEGs1DMgQ" rel="nofollow target=" _blank"
+                              class="dashed-underline">Altair Beacon chain upgrade</a> with Vitalik and Danny</li>
+                        <li><a href="https://youtu.be/KdhHJa2SEwY" rel="nofollow target=" _blank"
+                              class="dashed-underline">Altair - Accounting reform</a> with Alex Stokes</li>
+                        <li><a href="https://youtu.be/Kv643dgRmMI" rel="nofollow target=" _blank"
+                              class="dashed-underline">Altair in Teku</a> with Adrian Sutton</li>
+                        <li><a href="https://youtu.be/92BeeDr1Nhw" rel="nofollow target=" _blank"
+                              class="dashed-underline">Altair upgrade &amp; roadmap (Prysm)</a> with Raul Jordan &amp;
+                           Terence</li>
+                        <li><a href="https://youtu.be/3xD2UyazRTE" rel="nofollow target=" _blank"
+                              class="dashed-underline">Beacon chain metrics &amp; benchmarking</a> with Parithosh &amp;
+                           Leonardo</li>
+                        <li><a href="https://youtu.be/FlFKZR_ofSo" rel="nofollow target=" _blank"
+                              class="dashed-underline">A Brief History of Ethereum's Future</a> with Ben Edgington</li>
+                        </ul>
+                     </h5>
+
+
+                  </div>
+               </div>
+
+
+               <div class="row flex-start- mt-48">
+
+
+                  <section id="section-text" class="">
+                     <div class="container">
+                        <div class="row align-items-center">
+
+                           <div class="col-md-10">
+                              <h5 class="fw-300 mt-24 container">
+                                 The network upgrade progress tracker helps with keeping track of improvement proposals
+                                 in different phases of network upgrade. Clients' development and integration can be
+                                 followed on the latest version of the <a
+                                    href="https://github.com/ethereum/eth1.0-specs/tree/master/network-upgrades/client-integration-testnets"
+                                    target="_blank" class="dashed-underline">developer's testnet</a>. Read <a
+                                    href="https://medium.com/ethereum-cat-herders/shedding-light-on-the-ethereum-network-upgrade-process-4c6186ed442c"
+                                    target="_blank" class="dashed-underline">Shedding light on the Ethereum Network
+                                    Upgrade Process</a> for more information
+                              </h5>
+                              <div class="spacer-half"></div>
+                           </div>
+                           <div class="col-md-2">
+                              <span><img class="float-r cat-none" src="../img/general/cat-white.png" /></span>
+                           </div>
+                           <div class="col-md-12 ml-12">
+                              <a href="https://github.com/ethereum/eth1.0-specs/projects/1" target="_blank"
+                                 class="button -md -black two mt-24">
+                                 Network Upgrade <br> <span style="margin-top: 6px;"> Process Tracker</span>
+                              </a>
+                           </div>
+                        </div>
+                        <h3 class="fw-500 mt-48 container">
+                           How ECH support network upgrade.
+                        </h3>
+                        <h5 class="fw-300 mt-24 container">
+                           <ul style="list-style-position: outside;"></ul>
+                           <li>Organising proposal & upgrades specific community calls</li>
+                           <li>Documenting client Meetings</li>
+                           <li>Socialize proposals and build educational resources through the <a
+                                 href="https://youtube.com/playlist?list=PL4cwHXAawZxqu0PKKyMzG_3BJV_xZTi1F"
+                                 target="_blank" class="dashed-underline">Peep an EIP video series</a></li>
+                           <li>Outreaching Ethereum projects & infrastructure providers to weigh-in community sentiments
+                              for improvement proposals</li>
+                           <li>Process improvement and communication</li>
+                           </ul>
+                        </h5>
+
+
+                     </div>
+                  </section>
+
+               </div>
+            </div>
+         </section>
+
+         <!-- footer -->
+         <!-- footer start -->
+         <footer class="footer -type-1 bg-dark-1 m-100">
+            <!-- container start -->
+            <div class="container">
+               <div class="footer__top">
+                  <!-- row start -->
+                  <div class="row y-gap-48 justify-content-between container">
+                     <div class="col-lg-6">
+                        <p href="https://www.ethereumcatherders.com/" class="footer__logo text-white font-brew">
+                           Ethereum Cat Herders
+                        </p>
+                        <h5 class="text-white fw-300 mt-16 col-lg-9" style="padding-left:0px;">
+                           Decentralized project management for the Ethereum Network
+                        </h5>
+                        <img class="relative mt-32" src="../img/general/paws.png" alt="" />
+                     </div>
+                     <div class="col-lg-auto col-sm-4">
+                        <h4 class="text-xl fw-500 text-white">
+                           Links
+                        </h4>
+                        <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                           <div><a href="https://www.ethereumcatherders.com/" class="button -underline">Home</a></div>
+                           <div><a href="../network_upgrades/" class="button -underline mt-4">Activities</a></div>
+                           <div><a href="../calendar/" class="button -underline mt-4">Calendar</a></div>
+                           <div><a href="../blog/" class="button -underline mt-4">Blog</a></div>
+                           <div><a href="../ech_youtube/" class="button -underline mt-4">ECH Youtube</a></div>
+                           <div><a href="../about/" class="button -underline mt-4">About Us</a></div>
+                           <div><a href="../branding/" class="button -underline mt-4">ECH Branding Assets</a></div>
+                        </div>
+                     </div>
+                     <div class="col-lg-auto col-auto">
+                        <h4 class="text-xl fw-500 text-white">
+                           Follow us
+                        </h4>
+                        <div class="social -bordered mt-16 sm:mt-12">
+                           <a class="social__item text-white border-light" href="https://twitter.com/EthCatHerders">
+                              <i class="fa fa-twitter"></i>
+                           </a>
+                           <a class="social__item text-white border-light"
+                              href="https://github.com/ethereum-cat-herders">
+                              <i class="fa fa-github"></i>
+                           </a>
+                           <a class="social__item text-white border-light"
+                              href="https://www.youtube.com/channel/UCD9iiIwTRtLDYcEWONs2Q3A">
+                              <i class="fa fa-youtube-play"></i>
+                              <a class="social__item text-white border-light"
+                                 href="https://www.linkedin.com/company/ethereum-cat-herders/">
+                                 <i class="fa fa-linkedin"></i>
+                              </a>
+                        </div>
+                        <h4 class="text-xl fw-500 text-white mt-24">
+                           Email us
+                        </h4>
+                        <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                           <div><a href='mailto:support@ethereumcatherders.com'
+                                 class="button -underline">support@ethereumcatherders.com</a></div>
+                        </div>
+                        <h4 class="text-xl fw-500 text-white mt-24">
+                        </h4>
+                        <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                           <div>
+                              <p style="float: right;
+                                 margin-top: 35px;">v1.6.0</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- row end -->
+               </div>
+            </div>
+            <!-- container end -->
+         </footer>
+         <!-- footer end -->
+      </main>
+   </div>
+   <!-- partial -->
+   <script src='../js/jquery-1.12.0.min.js'></script>
+   <script src='../js/owl.carousel.min.js'></script>
+   <script src='../js/script4.js'></script>
+   <script src='../js/bootstrap.min.js'></script>
+   <script src="../js/script.js"></script>
+   <script src="../js/vendors.js"></script>
+   <script src="../js/main.js"></script>
+</body>
+
 </html>
