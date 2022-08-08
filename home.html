@@ -261,7 +261,7 @@
                                  </h5>
                               </div>
                               <div class="slider__button overflow-hidden mt-32 mr-minus-col-2">
-                                 <a href="the_merge.html" target="_blank" class="button -md -outline-black text-black invisible three">
+                                 <a href="the_merge" target="_blank" class="button -md -outline-black text-black invisible three">
                                  The Merge
                                  </a><span>
                                  <a href="eip_resources" class="button -md -outline-black text-black invisible three" style="margin-left: 20px;">
@@ -276,7 +276,7 @@
                                  Meetings
                                  </a></span>
                                  </a><span>
-                                 <a href="podcasts.html" class="button -md -outline-black text-black invisible three" style="margin-left: 20px;">
+                                 <a href="podcasts" class="button -md -outline-black text-black invisible three" style="margin-left: 20px;">
                                  Podcasts
                                  </a></span>
                               </div>
@@ -522,11 +522,11 @@
                   <div class="row">
                      <div class="left-col">
                         <h5 class="fw-300 mt-24">
-                           <a data-video="PL4cwHXAawZxpLrRIkDlBjDUUrGgF91pQw" class="relative container video-thumb active"><img class="relative container " src="img/general/box4.png" alt="" /></a>                           
-                           <a data-video="RGJOQHzg3UQ" class="relative container video-thumb"><img class="relative container " src="img/general/box1.png" alt="" /></a>
-                           <a data-video="KngrkkFhUf8" class="relative container video-thumb"><img class="relative  container" src="img/general/box2.png" alt="" /></a>
-                           <a data-video="nWAZmFVpCv8" class="relative container video-thumb thirdvid "><img class="relative  container" src="img/general/box3.png" alt="" /></a>
-                           <a data-video="7OQfk8RMQp8" class="relative container video-thumb thirdvid "><img class="relative  container" src="img/general/box5.png" alt="" /></a>
+                           <a class="relative container video-thumb" onclick="Latest()"><img class="relative container " src="img/general/box4.png" alt="" /></a>                           
+                           <a class="relative container video-thumb" onclick="peepaneip()"><img class="relative container " src="img/general/box1.png" alt="" /></a>
+                           <a class="relative container video-thumb" onclick="ECHteammeetings()"><img class="relative  container" src="img/general/box2.png" alt="" /></a>
+                           <a class="relative container video-thumb thirdvid " onclick="communityevent()"><img class="relative  container" src="img/general/box3.png" alt="" /></a>
+                           <a class="relative container video-thumb thirdvid " onclick="eipip()"><img class="relative  container" src="img/general/box5.png" alt="" /></a>
                         </h5>
                      </div>
                      <!-- Right Column -->
@@ -534,7 +534,9 @@
                         <img class="right-tv-col" src="img/general/tv-new.svg" alt="" />
                         <div class="video-player__playing">
                            <div class="embed-container">
-                              <div id="player"></div>
+                              <div>
+                                 <iframe id="player" width="560" height="315" src="https://www.youtube.com/embed/BDPQBVP6XHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              </div>
                            </div>
                         </div>
                      </div>
