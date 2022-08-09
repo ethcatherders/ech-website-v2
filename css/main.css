@@ -656,7 +656,7 @@ img {max-width:100%; height:auto}
 }
 
 .video-thumb:after {
-  content: "\f144";
+  /* content: "\f144"; */
   font-family: "FontAwesome";
   top: 50%;
   left: 50%;
