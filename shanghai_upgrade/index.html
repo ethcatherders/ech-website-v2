@@ -246,8 +246,8 @@
                             </a>
                         </li>
                         <li>
-                            <a class="font-rob-darkgray" href="../the_merge/">
-                                The Merge
+                            <a class="font-rob-black" href="../the_merge/">
+                                Shanghai Upgrade
                             </a>
                         </li>
                         <li>
@@ -266,7 +266,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="font-rob-black" href="../surveys/">
+                            <a class="font-rob-darkgray" href="../surveys/">
                                 Surveys
                             </a>
                         </li>
@@ -297,20 +297,22 @@
                                         tackling and resolving complex features such as Account Abstraction, control
                                         flow in EVM, and EIP-3074.</h5>
                                     <div class="container">
-                                        <button
+                                        <a href="https://ethereum-magicians.org/t/shanghai-core-eip-consideration/10777" target="_blank"><button
                                             style="border: 2px solid black; border-radius: 5px;padding: 8px 15px;margin: 15px 0px;">Read
-                                            More</button>
+                                            More</button></a>
                                     </div>
                                 </div>
                                 <div class="col-md-5 mobile-col-width-80">
                                     <img style="margin-top: 20px;" src="../img/general/Shanghai.png" />
                                 </div>
                             </div>
+
+                            <!-- EIP Section -->
                             <section style="text-align: center; margin-top: 110px;" class="container">
                                 <h2>Eips considered for inclusion</h2>
                                 <section style="margin-top: 80px;" class="row">
                                     <div style="margin: 0px 20px;" class="col">
-                                        <h5>EIP-3540</h5>
+                                        <a href="https://eips.ethereum.org/EIPS/eip-3540" target="_blank"><h5>EIP-3540</h5></a>
                                         <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;"
                                             class="fw-300">EIP-3540
                                             introduces an extensible and versioned container format for
@@ -318,9 +320,15 @@
                                             here brings the tangible benefit of code and data separation, and allows for
                                             easy introduction of a variety of changes in the future. This change relies
                                             on the reserved byte introduced by EIP-3541.</h5>
+                                            <div style="text-align: left;" class="">
+                                                <a href="https://eips.ethereum.org/EIPS/eip-3540" target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP Proposal</button></a>
+                                                <a href="https://ethereum-magicians.org/t/evm-object-format-eof/5727" target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP Discussion</button></a>
+                                            </div>
                                     </div>
                                     <div style="margin: 0px 20px;" class="col">
-                                        <h5>EIP-3860</h5>
+                                        <a href="https://eips.ethereum.org/EIPS/eip-3860" target="_blank"><h5>EIP-3860</h5></a>
                                         <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;"
                                             class="fw-300">EIP-3860 extends
                                             EIP-170 by introducing a maximum size limit for initcode. Furthermore, we
@@ -329,46 +337,83 @@
                                             jumpdest-analysis. Lastly, the size limit
                                             results in the nice-to-have property that EVM code size, code offset (PC),
                                             and jump offset fits a 16-bit value.</h5>
+                                            <div style="text-align: left;" class="">
+                                                <a href="https://eips.ethereum.org/EIPS/eip-3860" target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP Proposal</button></a>
+                                                <a href="https://ethereum-magicians.org/t/eip-3860-limit-and-meter-initcode/7018" target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP Discussion</button></a>
+                                            </div>
                                     </div>
                                     <div style="margin: 0px 20px;" class="col">
-                                        <h5>EIP-3670</h5>
+                                        <a href="https://eips.ethereum.org/EIPS/eip-3670" target="_blank"><h5>EIP-3670</h5></a>
                                         <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;"
                                             class="fw-300">EIP-3670 introduces
                                             code validation at contract creation time for EOF formatted
                                             (EIP-3540) contracts. Reject contracts which contain truncated PUSH-data or
                                             undefined instructions. Legacy bytecode (code which is not EOF formatted) is
                                             unaffected by this change.</h5>
+                                            &nbsp;<br>
+                                            &nbsp;
+                                            <div style="text-align: left;" class="">
+                                                <a href="https://eips.ethereum.org/EIPS/eip-3670" target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP Proposal</button></a>
+                                                <a href="	https://ethereum-magicians.org/t/eip-3670-eof-code-validation/6693" target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP Discussion</button></a>
+                                            </div>
                                     </div>
                                 </section>
                                 <section style="margin-top: 80px;" class="row">
                                     <div style="margin: 0px 20px;" class="col">
-                                        <h5>EIP-3855</h5>
+                                        <a href="https://eips.ethereum.org/EIPS/eip-3855" target="_blank"><h5>EIP-3855</h5></a>
                                         <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;"
                                             class="fw-300">EIP-3855 introduces
                                             the PUSH0 (0x5f) instruction, which pushes the constant value 0
                                             onto the stack.</h5>
+                                            &nbsp;<br>
+                                            &nbsp;<br>
+                                            &nbsp;<br>
+                                            &nbsp;
+                                            <div style="text-align: left;" class="">
+                                                <a href="https://eips.ethereum.org/EIPS/eip-3855" target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP Proposal</button></a>
+                                                <a href="https://ethereum-magicians.org/t/eip-3855-push0-instruction/7014" target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP Discussion</button></a>
+                                            </div>
                                     </div>
                                     <div style="margin: 0px 20px;" class="col">
-                                        <h5>EIP-3651</h5>
+                                        <a href="https://eips.ethereum.org/EIPS/eip-3651" target="_blank"><h5>EIP-3651</h5></a>
                                         <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;"
                                             class="fw-300">The
                                             COINBASE address shall be warm at the start of transaction execution, in
                                             accordance with the actual cost of reading that account.</h5>
+                                            &nbsp;<br>
+                                            &nbsp;<br>
+                                            &nbsp;
+                                            <div style="text-align: left;" class="">
+                                                <a href="https://eips.ethereum.org/EIPS/eip-3651" target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP Proposal</button></a>
+                                                <a href="https://ethereum-magicians.org/t/eip-3651-warm-coinbase/6640" target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP Discussion</button></a>
+                                            </div>
                                     </div>
                                     <div style="margin: 0px 20px;" class="col">
-                                        <h5>EIP-4895</h5>
+                                        <a href="https://eips.ethereum.org/EIPS/eip-4895" target="_blank"><h5>EIP-4895</h5></a>
                                         <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;"
                                             class="fw-300">EIP-4895 introduces
                                             a system-level “operation” to support validator withdrawals that
                                             are “pushed” from the beacon chain to the EVM.
                                             These operations create unconditional balance increases to the specified
                                             recipients.</h5>
+                                            <div style="text-align: left;" class="">
+                                                <a href="https://eips.ethereum.org/EIPS/eip-4895" target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP Proposal</button></a>
+                                                <a href="https://ethereum-magicians.org/t/eip-4895-beacon-chain-withdrawals-as-system-level-operations/8568" target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP Discussion</button></a>
+                                            </div>
                                     </div>
                                 </section>
                             </section>
                         </div>
-
-
 
                     </div>
                 </div>
