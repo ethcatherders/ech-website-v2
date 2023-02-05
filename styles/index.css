@@ -1,0 +1,105 @@
+.supporter-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+
+.supporter-container-child{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.supporter-container-child-image{
+    transition: all 0.1s linear;
+}
+
+.molochdao{
+    height: 170px;
+}
+
+.esp{
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.fem{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.eea{
+    height: 160px;
+    margin-bottom: 10px;
+}
+
+.border1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 50;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.border2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 50;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.support-content{
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    opacity: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 20px;
+    transition: all 0.2s linear;
+}
+
+.support-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.supporter-container-child:hover .supporter-container-child-image{
+    opacity: 0;
+}
+.supporter-container-child:hover .support-content{
+    opacity: 1;
+}
+
+.content-heading{
+    color: white;
+    margin: 0px 0px 10px;
+    font-size: 28px;
+}
+
+.content-content{
+    color: rgb(210, 210, 210);
+}
