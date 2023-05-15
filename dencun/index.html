@@ -300,21 +300,7 @@
                                         <br>
                                         Dencun is a combination of two upgrades: (1) Deneb, the name for Execution Layer upgrade, and (2) Cancun, the name of the Consensus Layer upgrade. 
                                         This upgrade will center around EIP-4844, but also includes a few other proposals.
-                                        <!-- Shanghai upgrade may bring significant feature upgrades to EVM with a set of
-                                        proposals.
-                                        EIP-3540, also known as the EVM Object Format (EOF) proposes an extensible and
-                                        versioned
-                                        container format for the EVM with a once-off validation at deploy time.
-                                        There are a bunch of EIPs proposed bt team Epsilon for EVM improvement. -->
                                         </br>
-                                        <!-- <br>
-                                        <b><a
-                                                href="https://github.com/ethereumjs/ethereumjs-monorepo/issues/2298">Shandong</a></b>
-                                        is the first experimental testnet deployed with a bunch of EOF EIPs by the
-                                        Ethereum JS team.
-                                        Community may expect multiple iterations of this testnet to test different CFI
-                                        EIPs.
-                                        </br> -->
                                     </h5>
                                     <div class="container">
                                         <a href="https://ethereum-magicians.org/t/cancun-network-upgrade-meta-thread/12060"
@@ -348,10 +334,10 @@
                                             href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/cancun.md"
                                             class="dashed-underline">here</a>.</p>
                                     <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/cancun.md"
-                                        target="_blank"><img style="width: 100%;"
-                                            src="../img/general/readinesschecklist1.jpg" alt=""></a>
+                                        target="_blank"><img style="width: 100%; max-width: 900px;"
+                                            src="../img/general/readinesschecklistdencun1.png" alt=""></a>
                                 </div>
-                                <div class="breakoutroom">
+                                <!-- <div class="breakoutroom">
                                     <h5 style="margin-bottom: 20px;">EOF Devnets Breakout Room</h5>
                                     <iframe style="width: 100%;height: 60%;"
                                         src="https://www.youtube.com/embed/videoseries?list=PL4cwHXAawZxpxjx7t3Aqo01pZYfHjaqG0"
@@ -361,7 +347,7 @@
                                     <p style="font-size: 18px;margin: 10px 0px 0px"><a class="dashed-underline"
                                             href="https://notes.ethereum.org/@timbeiko/eof-breakout"
                                             target="_blank">Notes of the meeting</a></p>
-                                </div>
+                                </div> -->
                             </section>
 
 
@@ -435,58 +421,54 @@
                                 </section>
                                 <section class="eipsrow">
                                     <div class="eipscol">
-                                        <a href="https://eips.ethereum.org/EIPS/eip-3540" target="_blank">
-                                            <h5>EIP-3540</h5>
+                                        <a href="https://eips.ethereum.org/EIPS/eip-6475" target="_blank">
+                                            <h5>EIP-6475</h5>
                                         </a>
                                         <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;height: 290px;"
-                                            class="fw-300"><i>EIP-3540: EOF - EVM Object Format v1</i> 
-                                            introduces an extensible and versioned container format for the EVM with a once-off validation at deploy time. The version described here brings the tangible benefit of code and data separation, and allows for easy introduction of a variety of changes in the future. This change relies on the reserved byte introduced by EIP-3541.
+                                            class="fw-300"><i>EIP-6475: SSZ Optional</i> 
+                                            introduces a new Simple Serialize (SSZ) type to represent Optional[T] values.
                                         </h5>
 
                                         <div style="text-align: left;" class="">
-                                            <a href="https://eips.ethereum.org/EIPS/eip-3540" target="_blank"><button
+                                            <a href="https://eips.ethereum.org/EIPS/eip-6475" target="_blank"><button
                                                     style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
                                                     Proposal</button></a>
-                                            <a href="https://ethereum-magicians.org/t/evm-object-format-eof/5727"
+                                            <a href="https://ethereum-magicians.org/t/eip-6475-ssz-optional/12891"
                                                 target="_blank"><button
                                                     style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
                                                     Discussion</button></a>
                                         </div>
                                     </div>
                                     <div class="eipscol">
-                                        <a href="https://eips.ethereum.org/EIPS/eip-3670" target="_blank">
-                                            <h5>EIP-3670</h5>
+                                        <a href="https://eips.ethereum.org/EIPS/eip-4788" target="_blank">
+                                            <h5>EIP-4788</h5>
                                         </a>
                                         <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;height: 290px;"
-                                            class="fw-300"><i>EIP-3670: EOF - Code Validation</i> introduces
-                                            code validation at contract creation time for EOF formatted
-                                            (EIP-3540) contracts. Reject contracts which contain truncated PUSH-data or
-                                            undefined instructions. Legacy bytecode (code which is not EOF formatted) is
-                                            unaffected by this change.</h5>
-
+                                            class="fw-300"><i>EIP-4788: Beacon block root in the EVM</i> introduces
+                                            commits to the hash tree root of each beacon chain block in the corresponding execution payload header. Store each of these roots in a contract that lives in the execution state and add a new opcode that reads this contract.</h5>
                                         <div style="text-align: left;" class="">
-                                            <a href="https://eips.ethereum.org/EIPS/eip-3670" target="_blank"><button
+                                            <a href="https://eips.ethereum.org/EIPS/eip-4788" target="_blank"><button
                                                     style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
                                                     Proposal</button></a>
-                                            <a href="	https://ethereum-magicians.org/t/eip-3670-eof-code-validation/6693"
+                                            <a href="https://ethereum-magicians.org/t/eip-4788-beacon-root-in-evm/8281"
                                                 target="_blank"><button
                                                     style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
                                                     Discussion</button></a>
                                         </div>
                                     </div>
                                     <div class="eipscol">
-                                        <a href="https://eips.ethereum.org/EIPS/eip-4200" target="_blank">
-                                            <h5>EIP-4200</h5>
+                                        <a href="https://eips.ethereum.org/EIPS/eip-6493" target="_blank">
+                                            <h5>EIP-6493</h5>
                                         </a>
                                         <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;height: 290px;"
-                                            class="fw-300"><i>EIP-4200: EOF - Static relative jumps</i> 
-                                            introduces three new EVM jump instructions (RJUMP, RJUMPI and RJUMPV) which encode destinations as signed immediate values. These can be useful in the majority of (but not all) use cases and offer a cost reduction.
+                                            class="fw-300"><i>EIP-6493: SSZ Transaction Signature Scheme</i> 
+                                            defines a signature scheme for Simple Serialize (SSZ) encoded transactions.
                                         </h5>
                                         <div style="text-align: left;" class="">
-                                            <a href="https://eips.ethereum.org/EIPS/eip-4200" target="_blank"><button
+                                            <a href="https://eips.ethereum.org/EIPS/eip-6493" target="_blank"><button
                                                     style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
                                                     Proposal</button></a>
-                                            <a href="https://ethereum-magicians.org/t/eip-4200-static-relative-jumps/7108"
+                                            <a href="https://ethereum-magicians.org/t/eip-6493-ssz-transaction-signature-scheme/13050"
                                                 target="_blank"><button
                                                     style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
                                                     Discussion</button></a>
@@ -494,7 +476,7 @@
                                     </div>
                                 </section>
                                 <section class="eipsrow">
-                                    <div class="eipscol">
+                                    <!-- <div class="eipscol">
                                         <a href="https://eips.ethereum.org/EIPS/eip-4750" target="_blank">
                                             <h5>EIP-4750</h5>
                                         </a>
@@ -531,7 +513,7 @@
                                                     style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
                                                     Discussion</button></a>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div style="margin: 0px 20px;" class="eipscol">
                                         <a href="https://eips.ethereum.org/EIPS/eip-6780" target="_blank">
                                             <h5>EIP-6780</h5>
@@ -569,6 +551,26 @@
                                             </h5>
                                             <div style="overflow-y: scroll;height: 680px;">
                                                 <h5 class="fw-300 mt-12 container">
+                                                    <span style="font-size: 18px; font-weight: 300;"><b>Most recent</b> :
+                                                        Launched EIP-4844 Devnet v5 (<a class="dashed-underline" target="_blank" href="https://4844-devnet-5.ethpandaops.io/">guide</a>)</span>
+                                                </h5>
+                                                <h5 class="fw-300 mt-12 container">
+                                                    <span style="font-size: 18px; font-weight: 300;"><b>4 months ago</b> :
+                                                        Launched EIP-4844 Devnet v4 (<a class="dashed-underline" target="_blank" href="https://notes.ethereum.org/@timbeiko/4844-devnet-4">spec</a>)</span>
+                                                </h5>
+                                                <h5 class="fw-300 mt-12 container">
+                                                    <span style="font-size: 18px; font-weight: 300;"><b>4 months ago</b> :
+                                                        Launched EIP-4844 Devnet v3 (<a class="dashed-underline" target="_blank" href="https://notes.ethereum.org/@timbeiko/4844-devnet-3">spec & tracker</a>)</span>
+                                                </h5>
+                                                <h5 class="fw-300 mt-12 container">
+                                                    <span style="font-size: 18px; font-weight: 300;"><b>7 months ago</b> :
+                                                        Launched EIP-4844 Devnet v2 (<a class="dashed-underline" target="_blank" href="https://hackmd.io/@inphi/SJKLtgJXs">guide</a>)</span>
+                                                </h5>
+                                                <h5 class="fw-300 mt-12 container">
+                                                    <span style="font-size: 18px; font-weight: 300;"><b>7 months ago</b> :
+                                                        Launched EIP-4844 Devnet v1 (<a class="dashed-underline" target="_blank" href="https://hackmd.io/@inphi/SJMXL1P6c">guide</a>)</span>
+                                                </h5>
+                                                <!-- <h5 class="fw-300 mt-12 container">
                                                     <span style="font-size: 18px; font-weight: 300;"><b>2022-11-22</b> :
                                                         Relaunch with
                                                         EIP-4895 Withdrawals planned next week (updated)</span>
@@ -628,7 +630,7 @@
                                                     <span style="font-size: 18px; font-weight: 300;"><b>2022-10-13</b> :
                                                         Shandong testnet
                                                         launches (Twitter)</span>
-                                                </h5>
+                                                </h5> -->
                                             </div>
                                         </div>
                                         <div style="display: flex; justify-content: center;align-items: center;flex-direction: column;"
@@ -705,7 +707,7 @@
                                     Links
                                 </h4>
                                 <div class="footer__content text-base text-light mt-16 sm:mt-12">
-                                    <div><a href="../home.html" class="button -underline">Home</a></div>
+                                    <div><a href="../" class="button -underline">Home</a></div>
                                     <div><a href="../network_upgrades/" class="button -underline mt-4">Activities</a>
                                     </div>
                                     <div><a href="../calendar/" class="button -underline mt-4">Calendar</a></div>
