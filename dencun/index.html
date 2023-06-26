@@ -157,7 +157,7 @@
                                                         <a href="../dencun/">Dencun Upgrade</a>
                                                     </li>
                                                     <li>
-                                                        <a href="../eip_resources/">EIP Resources</a>
+                                                        <a href="../eip/">EIP Resources</a>
                                                     </li>
                                                     <li>
                                                         <a href="../dev_meetings/">Meetings</a>
@@ -252,7 +252,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="font-rob-darkgray" href="../eip_resources/">
+                            <a class="font-rob-darkgray" href="../eip/">
                                 EIP Resources
                             </a>
                         </li>
@@ -298,7 +298,7 @@
                                         This introduces transactions that can shard "blobs" of data for scaling L2 chains.
                                         </br>
                                         <br>
-                                        Dencun is a combination of two upgrades: (1) Deneb, the name for Execution Layer upgrade, and (2) Cancun, the name of the Consensus Layer upgrade. 
+                                        Dencun is a combination of two upgrades: (1) Deneb, the name for Consensus Layer upgrade, and (2) Cancun, the name of the Execution Layer upgrade. 
                                         This upgrade will center around EIP-4844, but also includes a few other proposals.
                                         </br>
                                     </h5>
@@ -321,21 +321,27 @@
 
 
                             <!-- Readiness Checklist -->
-                            <section class="container readinesscontainer">
+                            <section class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 10px; margin-top: 100px;">
                                 <div class="readinesschecklist">
                                     <h2>Readiness Checklist</h2>
                                     <p style="margin: 0px;font-size: 20px;">List of outstanding items
-                                        before deployment.</p>
+                                        before deployment:</p>
+                                    <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/cancun.md"
+                                        target="_blank"><img style="width: 100%; max-width: 300px;"
+                                            src="../img/general/cancun_readiness_checklist.png" alt=""></a>
+                                </div>
+                                <div class="readinesschecklist">
+                                    <h2>Implementation Progress</h2>
                                     <p style="font-size: 20px;margin: 5px 0px;">Code merged into Participating
                                         Clients:
                                     </p>
+                                    <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/cancun.md"
+                                        target="_blank"><img style="width: 100%; max-width: 800px;"
+                                            src="../img/general/cancun_implementation_progress.png" alt=""></a>
                                     <p style="font-size: 20px;margin-bottom: 10px;">For more Information on this
                                         click <a
                                             href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/cancun.md"
-                                            class="dashed-underline">here</a>.</p>
-                                    <a href="https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/cancun.md"
-                                        target="_blank"><img style="width: 100%; max-width: 900px;"
-                                            src="../img/general/readinesschecklistdencun1.png" alt=""></a>
+                                            class="dashed-underline" target="_blank">here</a>.</p>
                                 </div>
                                 <!-- <div class="breakoutroom">
                                     <h5 style="margin-bottom: 20px;">EOF Devnets Breakout Room</h5>
@@ -400,19 +406,17 @@
                                     </div>
                                     <div class="eipscol">
                                         <a href="https://eips.ethereum.org/EIPS/eip-2537" target="_blank">
-                                            <h5>EIP-2537</h5>
+                                            <h5>EIP-5656</h5>
                                         </a>
                                         <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;height: 290px;"
-                                            class="fw-300"><i>EIP-2537: Precompile for BLS12-381 curve operations</i> 
-                                            adds operation on BLS12-381 curve as a precompile in a set necessary to 
-                                            efficiently perform operations such as BLS signature verification and 
-                                            perform SNARKs verifications.
+                                            class="fw-300"><i>EIP-5656: MCOPY - Memory copying instruction</i> 
+                                            provides an efficient EVM instruction for copying memory areas.
                                         </h5>
                                         <div style="text-align: left;" class="">
-                                            <a href="https://eips.ethereum.org/EIPS/eip-2537" target="_blank"><button
+                                            <a href="https://eips.ethereum.org/EIPS/eip-5656" target="_blank"><button
                                                     style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
                                                     Proposal</button></a>
-                                            <a href="https://ethereum-magicians.org/t/eip-2537-bls12-precompile-discussion-thread/4187"
+                                            <a href="https://ethereum-magicians.org/t/eip-5656-mcopy-instruction/10890"
                                                 target="_blank"><button
                                                     style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
                                                     Discussion</button></a>
@@ -420,25 +424,6 @@
                                     </div>
                                 </section>
                                 <section class="eipsrow">
-                                    <div class="eipscol">
-                                        <a href="https://eips.ethereum.org/EIPS/eip-6475" target="_blank">
-                                            <h5>EIP-6475</h5>
-                                        </a>
-                                        <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;height: 290px;"
-                                            class="fw-300"><i>EIP-6475: SSZ Optional</i> 
-                                            introduces a new Simple Serialize (SSZ) type to represent Optional[T] values.
-                                        </h5>
-
-                                        <div style="text-align: left;" class="">
-                                            <a href="https://eips.ethereum.org/EIPS/eip-6475" target="_blank"><button
-                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
-                                                    Proposal</button></a>
-                                            <a href="https://ethereum-magicians.org/t/eip-6475-ssz-optional/12891"
-                                                target="_blank"><button
-                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
-                                                    Discussion</button></a>
-                                        </div>
-                                    </div>
                                     <div class="eipscol">
                                         <a href="https://eips.ethereum.org/EIPS/eip-4788" target="_blank">
                                             <h5>EIP-4788</h5>
@@ -456,64 +441,6 @@
                                                     Discussion</button></a>
                                         </div>
                                     </div>
-                                    <div class="eipscol">
-                                        <a href="https://eips.ethereum.org/EIPS/eip-6493" target="_blank">
-                                            <h5>EIP-6493</h5>
-                                        </a>
-                                        <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;height: 290px;"
-                                            class="fw-300"><i>EIP-6493: SSZ Transaction Signature Scheme</i> 
-                                            defines a signature scheme for Simple Serialize (SSZ) encoded transactions.
-                                        </h5>
-                                        <div style="text-align: left;" class="">
-                                            <a href="https://eips.ethereum.org/EIPS/eip-6493" target="_blank"><button
-                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
-                                                    Proposal</button></a>
-                                            <a href="https://ethereum-magicians.org/t/eip-6493-ssz-transaction-signature-scheme/13050"
-                                                target="_blank"><button
-                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
-                                                    Discussion</button></a>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="eipsrow">
-                                    <!-- <div class="eipscol">
-                                        <a href="https://eips.ethereum.org/EIPS/eip-4750" target="_blank">
-                                            <h5>EIP-4750</h5>
-                                        </a>
-                                        <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;height: 290px;"
-                                            class="fw-300"><i>EIP-4750: EOF - Functions</i> 
-                                            introduces the ability to have several code sections in EOF-formatted (EIP-3540) bytecode, each one representing a separate subroutine/function. Two new opcodes,CALLF and RETF, are introduced to call and return from such a function. Dynamic jump instructions are disallowed.
-                                        </h5>
-                                        <div style="text-align: left;" class="">
-                                            <a href="https://eips.ethereum.org/EIPS/eip-4750" target="_blank"><button
-                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
-                                                    Proposal</button></a>
-                                            <a href="https://ethereum-magicians.org/t/eip-4750-eof-functions/8195"
-                                                target="_blank"><button
-                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
-                                                    Discussion</button></a>
-                                        </div>
-                                    </div>
-                                    <div class="eipscol">
-                                        <a href="https://eips.ethereum.org/EIPS/eip-5450" target="_blank">
-                                            <h5>EIP-5450</h5>
-                                        </a>
-                                        <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;height: 290px;"
-                                            class="fw-300"><i>EIP-5450: EOF - Stack Validation</i> proposal
-                                            introduces
-                                            extended validation of EOF code sections to guarantee that neither stack underflow nor overflow can happen during execution of validated contracts.
-                                        </h5>
-
-                                        <div style="text-align: left;" class="">
-                                            <a href="https://eips.ethereum.org/EIPS/eip-5450" target="_blank"><button
-                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
-                                                    Proposal</button></a>
-                                            <a href="https://ethereum-magicians.org/t/eip-5450-eof-stack-validation/10410"
-                                                target="_blank"><button
-                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
-                                                    Discussion</button></a>
-                                        </div>
-                                    </div> -->
                                     <div style="margin: 0px 20px;" class="eipscol">
                                         <a href="https://eips.ethereum.org/EIPS/eip-6780" target="_blank">
                                             <h5>EIP-6780</h5>
@@ -527,6 +454,64 @@
                                                     style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
                                                     Proposal</button></a>
                                             <a href="https://ethereum-magicians.org/t/eip-6780-deactivate-selfdestruct-except-where-it-occurs-in-the-same-transaction-in-which-a-contract-was-created/13539"
+                                                target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
+                                                    Discussion</button></a>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="eipsrow">
+                                    <div class="eipscol">
+                                        <a href="https://eips.ethereum.org/EIPS/eip-6988" target="_blank">
+                                            <h5>EIP-6988</h5>
+                                        </a>
+                                        <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;height: 290px;"
+                                            class="fw-300"><i>EIP-6988: Elected block proposer has not been slashed</i> 
+                                            introduces a modification to the consensus layer specification which ensures that slashed validator cannot be elected as block proposer.
+                                        </h5>
+                                        <div style="text-align: left;" class="">
+                                            <a href="https://eips.ethereum.org/EIPS/eip-6988" target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
+                                                    Proposal</button></a>
+                                            <a href="https://ethereum-magicians.org/t/eip-6988-elected-block-proposer-has-not-been-slashed/14349"
+                                                target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
+                                                    Discussion</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="eipscol">
+                                        <a href="https://eips.ethereum.org/EIPS/eip-7044" target="_blank">
+                                            <h5>EIP-7044</h5>
+                                        </a>
+                                        <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;height: 290px;"
+                                            class="fw-300"><i>EIP-7044: Perpetually Valid Signed Voluntary Exits</i>
+                                            lock validator voluntary exit signature domain on Capella for perpetual validity. Currently, signed voluntary exits are only valid for two upgrades.
+                                        </h5>
+
+                                        <div style="text-align: left;" class="">
+                                            <a href="https://eips.ethereum.org/EIPS/eip-7044" target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
+                                                    Proposal</button></a>
+                                            <a href="https://ethereum-magicians.org/t/eip-7044-perpetually-valid-signed-voluntary-exits/14348"
+                                                target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
+                                                    Discussion</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="eipscol">
+                                        <a href="https://eips.ethereum.org/EIPS/eip-7045" target="_blank">
+                                            <h5>EIP-7045</h5>
+                                        </a>
+                                        <h5 style="text-align: justify; font-size: 20px; margin-top: 30px;height: 290px;"
+                                            class="fw-300"><i>EIP-7045: Increase max attestation inclusion slot</i>
+                                            increases max attestaton inclusion slot to the last slot in `N+1` where `N` is the epoch containing the attestation's slot.
+                                        </h5>
+
+                                        <div style="text-align: left;" class="">
+                                            <a href="https://eips.ethereum.org/EIPS/eip-7045" target="_blank"><button
+                                                    style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
+                                                    Proposal</button></a>
+                                            <a href="https://ethereum-magicians.org/t/eip-7045-increase-max-attestation-inclusion-slot/14342"
                                                 target="_blank"><button
                                                     style="border: 2px solid black; border-radius: 5px;padding: 5px 10px;margin: 15px 0px;width: 49%;">EIP
                                                     Discussion</button></a>
