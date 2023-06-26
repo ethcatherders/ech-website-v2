@@ -1,0 +1,17 @@
+.additional-resources{
+    display: flex;
+    flex-direction: column;
+}
+
+.additional-child{
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+    .additional-resources{
+        flex-direction: row;
+    }
+    .additional-child{
+        width: 50%;
+    }
+}
