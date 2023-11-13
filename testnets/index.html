@@ -312,17 +312,17 @@
               <div class="aligncenter mobile-d-none js-header-menu-classic mt-40">
                 <ul class="navClassic-list js-navClassic-list">
                   <li>
-                    <h3 class="font-rob-darkgray">
+                    <h3 id="sepolia-card-picker" class="font-rob-black">
                       Sepolia
                     </h3>
                   </li>
                   <li>
-                    <h3 class="font-rob-darkgray">
-                      Holesky
+                    <h3 id="holesky-card-picker" class="font-rob-darkgray">
+                      Holešky
                     </h3>
                   </li>
                   <li>
-                    <h3 class="font-rob-darkgray">
+                    <h3 id="goerli-card-picker" class="font-rob-darkgray">
                       Goerli
                     </h3>
                   </li>
@@ -332,8 +332,8 @@
                 <!-- <div class="row"> -->
                   <!-- <div class="col-md-12 "> -->
                     <!-- <div id="news-slider" class="owl-carousel"> -->
-                      <div class="post-slide" style="width: 100%;">
-                        <div class="" style="height: 100%;">
+                      <div id="sepolia-card" class="post-slide" style="width: 100%;">
+                        <div style="height: 100%;">
                           <div class="row" style="height: 100%;">
                             <div class="col-8" style="border-right: 2px solid black;min-height: 100%;padding-left: 40px;padding-right: 40px;padding-bottom: 20px;">
                               <h3 class="post-title" style="text-align: center;">
@@ -393,6 +393,141 @@
                                 <p>
                                   <a href="https://www.infura.io/faucet/sepolia" target="_blank"
                                     class="mr-10 black-color">Infura</a>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="holesky-card" class="post-slide" style="width: 100%;display: none;">
+                        <div style="height: 100%;">
+                          <div class="row" style="height: 100%;">
+                            <div class="col-8" style="border-right: 2px solid black;min-height: 100%;padding-left: 40px;padding-right: 40px;padding-bottom: 20px;">
+                              <h3 class="post-title" style="text-align: center;">
+                                <p class="card-title2">Holešky
+                              </h3>
+                              <h6 class="post-title mb-20" style="text-align: center;font-style: italic; font-size: 16px;">
+                                **For Validators and Infra Only**
+                              </h6>
+                              <p class="mb-10" style="font-size: 16px; font-weight: 400;">
+                                Holešky (Holešovice Testnet) is the first long-standing, merged-from-genesis, public Ethereum testnet. Holešky will replace Goerli as a staking, infrastructure and protocol-developer testnet in 2023. For testing decentralized applications, smart contracts, and other EVM functionality, please use Sepolia!
+                              </p>
+                            </div>
+                            <div class="col-4" style="height: 100%;padding-left: 40px;padding-right: 40px;margin-bottom: 10px;">
+                              <div>
+                                <h3 class="post-title">
+                                  <p class="card-title2">Resources
+                                </h3>
+                                <p>
+                                  <a href="https://holesky.ethpandaops.io/" target="_blank"
+                                    class="mr-10 black-color">Website</a>
+                                </p>
+                                <p>
+                                  <a href="https://github.com/eth-clients/holesky" target="_blank"
+                                    class="mr-10 black-color">Github</a>
+                                </p>
+                                <p>
+                                  <a href="https://holesky.otterscan.io/" target="_blank"
+                                    class="mr-10 black-color">Otterscan</a>
+                                </p>
+                                <p>
+                                  <a href="https://holesky.etherscan.io/" target="_blank"
+                                    class="mr-10 black-color">Etherscan</a>
+                                </p>
+                              </div>
+                              <div>
+                                <h3 class="post-title">
+                                  <p class="card-title2">Faucets
+                                </h3>
+                                <p>
+                                  <a href="https://holesky-faucet.pk910.de/" target="_blank"
+                                    class="mr-10 black-color">PoW Faucet</a>
+                                </p>
+                                <p>
+                                  <a href="https://faucet.quicknode.com/drip" target="_blank"
+                                    class="mr-10 black-color">Quicknode</a>
+                                </p>
+                                <p>
+                                  <a href="https://faucets.tatum.io/" target="_blank"
+                                    class="mr-10 black-color">Tatum</a>
+                                </p>
+                                <p>
+                                  <a href="https://stakely.io/en/faucet" target="_blank"
+                                    class="mr-10 black-color">Stakely</a>
+                                </p>
+                                <p>
+                                  <a href="https://www.holeskyfaucet.io/" target="_blank"
+                                    class="mr-10 black-color">Automata</a>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="goerli-card" class="post-slide" style="width: 100%;display: none;">
+                        <div style="height: 100%;">
+                          <div class="row" style="height: 100%;">
+                            <div class="col-8" style="border-right: 2px solid black;min-height: 100%;padding-left: 40px;padding-right: 40px;padding-bottom: 20px;">
+                              <h3 class="post-title" style="text-align: center;">
+                                <p class="card-title2">Goerli
+                              </h3>
+                              <h6 class="post-title mb-20" style="text-align: center;font-style: italic; font-size: 16px;">
+                                **Deprecated By End of 2023**
+                              </h6>
+                              <p class="mb-10" style="font-size: 16px; font-weight: 400;">
+                                Goerli is a testnet for testing validating and staking. The Goerli network is open for users wanting to run a testnet validator. Stakers wanting to test protocol upgrades before they are deployed to mainnet should therefore use Goerli.
+                              </p>
+                              <ul class="ml-20">
+                                <li>Open validator set, stakers can test network upgrades</li>
+                                <li>Large state, useful for testing complex smart contract interactions</li>
+                                <li>Longer to sync and requires more storage to run a node</li>
+                              </ul>
+                            </div>
+                            <div class="col-4" style="height: 100%;padding-left: 40px;padding-right: 40px;margin-bottom: 10px;">
+                              <div>
+                                <h3 class="post-title">
+                                  <p class="card-title2">Resources
+                                </h3>
+                                <p>
+                                  <a href="https://goerli.net/" target="_blank"
+                                    class="mr-10 black-color">Website</a>
+                                </p>
+                                <p>
+                                  <a href="https://github.com/eth-clients/goerli" target="_blank"
+                                    class="mr-10 black-color">Github</a>
+                                </p>
+                                <p>
+                                  <a href="https://explorer.bitquery.io/goerli" target="_blank"
+                                    class="mr-10 black-color">Bitquery</a>
+                                </p>
+                                <p>
+                                  <a href="https://goerli.etherscan.io/" target="_blank"
+                                    class="mr-10 black-color">Etherscan</a>
+                                </p>
+                              </div>
+                              <div>
+                                <h3 class="post-title">
+                                  <p class="card-title2">Faucets
+                                </h3>
+                                <p>
+                                  <a href="https://goerli-faucet.pk910.de/" target="_blank"
+                                    class="mr-10 black-color">PoW Faucet</a>
+                                </p>
+                                <p>
+                                  <a href="https://faucet.quicknode.com/drip" target="_blank"
+                                    class="mr-10 black-color">Quicknode</a>
+                                </p>
+                                <p>
+                                  <a href="https://grabteeth.xyz/" target="_blank"
+                                    class="mr-10 black-color">Grabteeth</a>
+                                </p>
+                                <p>
+                                  <a href="https://goerlifaucet.com/" target="_blank"
+                                    class="mr-10 black-color">Alchemy</a>
+                                </p>
+                                <p>
+                                  <a href="https://faucet.paradigm.xyz/" target="_blank"
+                                    class="mr-10 black-color">Paradigm</a>
                                 </p>
                               </div>
                             </div>
@@ -733,6 +868,53 @@
   <script src="../js/main.js"></script>
   <script src='../js/owl.carousel.min.js'></script>
   <script src='../js/bootstrap.min.js'></script>
+  <script>
+    const sepoliaCard = document.getElementById('sepolia-card');
+    const holeskyCard = document.getElementById('holesky-card');
+    const goerliCard = document.getElementById('goerli-card');
+    const sepoliaCardPicker = document.getElementById('sepolia-card-picker');
+    const holeskyCardPicker = document.getElementById('holesky-card-picker');
+    const goerliCardPicker = document.getElementById('goerli-card-picker');
+
+    sepoliaCardPicker.addEventListener('click', () => {
+      sepoliaCard.style.display = 'block';
+      holeskyCard.style.display = 'none';
+      goerliCard.style.display = 'none';
+      sepoliaCardPicker.classList.replace('font-rob-darkgray', 'font-rob-black')
+      if (holeskyCardPicker.classList.contains('font-rob-black')) {
+        holeskyCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
+      }
+      if (goerliCardPicker.classList.contains('font-rob-black')) {
+        goerliCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
+      }
+    });
+
+    holeskyCardPicker.addEventListener('click', () => {
+      sepoliaCard.style.display = 'none';
+      holeskyCard.style.display = 'block';
+      goerliCard.style.display = 'none';
+      holeskyCardPicker.classList.replace('font-rob-darkgray', 'font-rob-black')
+      if (sepoliaCardPicker.classList.contains('font-rob-black')) {
+        sepoliaCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
+      }
+      if (goerliCardPicker.classList.contains('font-rob-black')) {
+        goerliCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
+      }
+    });
+
+    goerliCardPicker.addEventListener('click', () => {
+      sepoliaCard.style.display = 'none';
+      holeskyCard.style.display = 'none';
+      goerliCard.style.display = 'block';
+      goerliCardPicker.classList.replace('font-rob-darkgray', 'font-rob-black')
+      if (sepoliaCardPicker.classList.contains('font-rob-black')) {
+        sepoliaCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
+      }
+      if (holeskyCardPicker.classList.contains('font-rob-black')) {
+        holeskyCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
+      }
+    });
+  </script>
 
 </body>
 
