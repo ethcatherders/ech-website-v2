@@ -364,7 +364,7 @@
             <div class="col-12">
               <h1 class="fw-900 mt-24 container lh-h1">Active Testnets</h1>
               <!-- Add Active Testnet Cards Here -->
-              <div class="aligncenter mobile-d-none js-header-menu-classic mt-40">
+              <div class="aligncenter js-header-menu-classic mt-40">
                 <ul class="navClassic-list js-navClassic-list">
                   <li>
                     <h3 id="sepolia-card-picker" class="font-rob-black">
@@ -376,11 +376,11 @@
                       Holešky
                     </h3>
                   </li>
-                  <li>
+                  <!-- <li>
                     <h3 id="goerli-card-picker" class="font-rob-darkgray">
                       Goerli
                     </h3>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
               <div class="container">
@@ -519,7 +519,7 @@
                           </div>
                         </div>
                       </div>
-                      <div id="goerli-card" class="post-slide" style="width: 100%;display: none;">
+                      <!-- <div id="goerli-card" class="post-slide" style="width: 100%;display: none;">
                         <div style="height: 100%;">
                           <div class="row" style="height: 100%;">
                             <div class="col-8" style="border-right: 2px solid black;min-height: 100%;padding-left: 40px;padding-right: 40px;padding-bottom: 20px;">
@@ -588,7 +588,7 @@
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div> -->
                       <!-- <div class="post-slide">
                         <div class="post-img">
                           <img style="height: 168px;" src="../img/general/themerge.jpeg" alt="">
@@ -657,7 +657,48 @@
                 <div class="post-slide">
                   <div class="row mb-20">
                     <div class="col ml-20 mt-20">
-                      <img style="height: 150px;border-radius: 8px;" src="../img/general/testnet_kovan.png" alt="">
+                      <img style="height: 150px;border-radius: 8px;object-fit: cover;" src="../img/general/testnet_goerli.jpg" alt="">
+                    </div>
+                    <div class="col mr-20">
+                      <h3 class="post-title" style="text-align: center;">
+                        <p class="card-title2">Goerli
+                      </h3>
+                      <div class="row" style="justify-content: space-between;">
+                        <p class="col" style="font-weight: bold;">Flavour</p>
+                        <div class="col">
+                          <p>PoA/PoS</p>
+                        </div>
+                      </div>
+                      <div class="row" style="justify-content: space-between;">
+                        <p class="col" style="font-weight: bold;">Genesis</p>
+                        <div class="col">
+                          <p>Q3/2018</p>
+                        </div>
+                      </div>
+                      <div class="row" style="justify-content: space-between;">
+                        <p class="col" style="font-weight: bold;">LTS</p>
+                        <div class="col">
+                          <p>No</p>
+                        </div>
+                      </div>
+                      <div class="row" style="justify-content: space-between;">
+                        <p class="col" style="font-weight: bold;">EOS</p>
+                        <div class="col">
+                          <p>Q2/2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="post-content">
+                      <p class="mb-10" style="font-size: 16px; font-weight: 400;">
+                        Goerli is a testnet for testing validating and staking. The Goerli network is open for users wanting to run a testnet validator. Stakers wanting to test protocol upgrades before they are deployed to mainnet should therefore use Goerli.
+                      </p>
+                    </div>
+                </div>
+                <div class="post-slide">
+                  <div class="row mb-20">
+                    <div class="col ml-20 mt-20">
+                      <img style="height: 150px;border-radius: 8px;object-fit: cover;" src="../img/general/testnet_kovan.png" alt="">
                     </div>
                     <div class="col mr-20">
                       <h3 class="post-title" style="text-align: center;">
@@ -699,7 +740,7 @@
                 <div class="post-slide">
                   <div class="row mb-20">
                     <div class="col ml-20 mt-20">
-                      <img style="height: 150px;border-radius: 8px;" src="../img/general/testnet_ropsten.png" alt="">
+                      <img style="height: 150px;border-radius: 8px;object-fit: cover;" src="../img/general/testnet_ropsten.png" alt="">
                     </div>
                     <div class="col mr-20">
                       <h3 class="post-title" style="text-align: center;">
@@ -741,7 +782,7 @@
                 <div class="post-slide">
                   <div class="row mb-20">
                     <div class="col ml-20 mt-20">
-                      <img style="height: 150px;border-radius: 20px;" src="../img/general/shapella_mainnet.jpg" alt="">
+                      <img style="height: 150px;border-radius: 20px;object-fit: cover;" src="../img/general/shapella_mainnet.jpg" alt="">
                     </div>
                     <div class="col mr-20">
                       <h3 class="post-title" style="text-align: center;">
@@ -926,49 +967,49 @@
   <script>
     const sepoliaCard = document.getElementById('sepolia-card');
     const holeskyCard = document.getElementById('holesky-card');
-    const goerliCard = document.getElementById('goerli-card');
+    // const goerliCard = document.getElementById('goerli-card');
     const sepoliaCardPicker = document.getElementById('sepolia-card-picker');
     const holeskyCardPicker = document.getElementById('holesky-card-picker');
-    const goerliCardPicker = document.getElementById('goerli-card-picker');
+    // const goerliCardPicker = document.getElementById('goerli-card-picker');
 
     sepoliaCardPicker.addEventListener('click', () => {
       sepoliaCard.style.display = 'block';
       holeskyCard.style.display = 'none';
-      goerliCard.style.display = 'none';
+      // goerliCard.style.display = 'none';
       sepoliaCardPicker.classList.replace('font-rob-darkgray', 'font-rob-black')
       if (holeskyCardPicker.classList.contains('font-rob-black')) {
         holeskyCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
       }
-      if (goerliCardPicker.classList.contains('font-rob-black')) {
-        goerliCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
-      }
+      // if (goerliCardPicker.classList.contains('font-rob-black')) {
+      //   goerliCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
+      // }
     });
 
     holeskyCardPicker.addEventListener('click', () => {
       sepoliaCard.style.display = 'none';
       holeskyCard.style.display = 'block';
-      goerliCard.style.display = 'none';
+      // goerliCard.style.display = 'none';
       holeskyCardPicker.classList.replace('font-rob-darkgray', 'font-rob-black')
       if (sepoliaCardPicker.classList.contains('font-rob-black')) {
         sepoliaCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
       }
-      if (goerliCardPicker.classList.contains('font-rob-black')) {
-        goerliCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
-      }
+      // if (goerliCardPicker.classList.contains('font-rob-black')) {
+      //   goerliCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
+      // }
     });
 
-    goerliCardPicker.addEventListener('click', () => {
-      sepoliaCard.style.display = 'none';
-      holeskyCard.style.display = 'none';
-      goerliCard.style.display = 'block';
-      goerliCardPicker.classList.replace('font-rob-darkgray', 'font-rob-black')
-      if (sepoliaCardPicker.classList.contains('font-rob-black')) {
-        sepoliaCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
-      }
-      if (holeskyCardPicker.classList.contains('font-rob-black')) {
-        holeskyCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
-      }
-    });
+    // goerliCardPicker.addEventListener('click', () => {
+    //   sepoliaCard.style.display = 'none';
+    //   holeskyCard.style.display = 'none';
+    //   goerliCard.style.display = 'block';
+    //   goerliCardPicker.classList.replace('font-rob-darkgray', 'font-rob-black')
+    //   if (sepoliaCardPicker.classList.contains('font-rob-black')) {
+    //     sepoliaCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
+    //   }
+    //   if (holeskyCardPicker.classList.contains('font-rob-black')) {
+    //     holeskyCardPicker.classList.replace('font-rob-black', 'font-rob-darkgray')
+    //   }
+    // });
   </script>
 
 </body>
